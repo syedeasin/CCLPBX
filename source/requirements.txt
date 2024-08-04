@@ -1,0 +1,5 @@
+# requirements.txt
+
+# Core dependencies
+sphinx
+sphinx_rtd_theme
