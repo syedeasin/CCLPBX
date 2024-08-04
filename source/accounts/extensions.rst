@@ -5,7 +5,7 @@ Extensions
 **Extensions** define the information needed for an endpoint such as a hard phone, soft phone or some other device to connect to the SIP server. The extension is the SIP username and the password is the secret used for authentication. The domain name servers (DNS) to purposes it, locates the server to register to and is the realm that determines which domain the endpoint is registering to.
 
 
-.. image:: ../_static/images/accounts/cclpbx_accounts_extensions.jpg
+.. image:: ../_static/images/accounts/fusionpbx_accounts_extensions.jpg
         :scale: 85%
 
 
@@ -80,7 +80,7 @@ Advanced Settings
 
 Advanced settings in extensions. Be sure to know what and why you are changing these settings or you will risk causing issues for the extention.
 
-.. image:: ../_static/images/accounts/cclpbx_accounts_extensions_advanced.jpg
+.. image:: ../_static/images/accounts/fusionpbx_accounts_extensions_advanced.jpg
         :scale: 85%
 
 *  Auth ACL

@@ -13,6 +13,6 @@ With profiles you can see
 *  RELOAD XML and REFRESH
 *  View UP time, sessions since startup, max sessions, and current stack size/max.
 
-.. image:: ../_static/images/Status/cclpbx_status_sip_status.jpg
+.. image:: ../_static/images/Status/fusionpbx_status_sip_status.jpg
         :scale: 85%
 

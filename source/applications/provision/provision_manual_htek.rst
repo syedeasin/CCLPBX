@@ -21,7 +21,7 @@ Setting up a **Htek** SIP phone through the phone's local http management portal
 * Click SaveSet
 * Click Restart
 
-.. image:: ../../_static/images/provision/cclpbx_provision_manual_htek.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_manual_htek.jpg
         :scale: 85%
 
 

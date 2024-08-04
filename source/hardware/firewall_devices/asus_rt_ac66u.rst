@@ -18,7 +18,7 @@ First, enable the QoS feature:
 * Enter in your Up/Down speeds.  You can use http://beta.speedtest.net/ as noted.
 * Click the Apply button and wait for the router to reboot.
 
-.. image:: ../../_static/images/firewall/cclpbx_asus_traffic_manager_qos.png
+.. image:: ../../_static/images/firewall/fusionpbx_asus_traffic_manager_qos.png
         :scale: 85%
 
 
@@ -30,7 +30,7 @@ Next, assign the QoS rules.
 * It is important to note that the default rules set “Web Surf” and “HTTPS” to highest priority.  We don’t want that to compete with VOIP traffic, so reduce those to “High.”
 * Click Apply.
 
-.. image:: ../../_static/images/firewall/cclpbx_asus_traffic_manager_qos_rules.png
+.. image:: ../../_static/images/firewall/fusionpbx_asus_traffic_manager_qos_rules.png
         :scale: 85%
 
 .. Note::
@@ -40,7 +40,7 @@ Next, assign the QoS rules.
  Another important area is the “user-defined priorities” section of Traffic Manager – QoS.  As you can see, the default rules     give a very large amount of the bandwidth share to the highest priority.  This is very likely excessive for VOIP traffic.  We don’t need much bandwidth, we just need to make sure we get prioritized traffic.  You should adjust these to suit your environment.
 
 
-.. image:: ../../_static/images/firewall/cclpbx_asus_traffic_manager_qos_note.png
+.. image:: ../../_static/images/firewall/fusionpbx_asus_traffic_manager_qos_note.png
         :scale: 85%
 
 
@@ -67,7 +67,7 @@ How to Disable SIP ALG
 
 This part is a little confusing.  It seems that ASUS has either reversed the meaning of SIP Passthrough or changed how it works over a few firmware releases.  At any rate, if you have difficulties with Audio or Registrations, you can try toggling this setting.  With these home-grade routers you should perform a full reboot in order to clear the tables before testing the phones.
 
-.. image:: ../../_static/images/firewall/cclpbx_asus_sip_alg.png
+.. image:: ../../_static/images/firewall/fusionpbx_asus_sip_alg.png
         :scale: 85%
 
 

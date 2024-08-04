@@ -23,12 +23,12 @@ Configure Inbound Destinations: (This will auto-configure an Inbound Route also)
 
 To add a destination **click** on the **plus** button on the right. 
 
-.. image:: ../_static/images/dialplan/cclpbx_destinations.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_destinations.jpg
         :scale: 85%
 
 *Enter* the route information below and *Click* **Save** once complete.
 
-.. image:: ../_static/images/dialplan/cclpbx_destinations1.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_destinations1.jpg
         :scale: 85%
 
 

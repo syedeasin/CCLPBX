@@ -6,7 +6,7 @@ Conference Centers are a group of conference rooms. They can be organized by cos
 
 
 
-.. image:: ../_static/images/cclpbx_conference_center.jpg
+.. image:: ../_static/images/fusionpbx_conference_center.jpg
         :scale: 85%
 
 
@@ -21,7 +21,7 @@ Conference Center Options
 ---------------------------
 
 
-.. image:: ../_static/images/applications/cclpbx_conference_center_add.jpg
+.. image:: ../_static/images/applications/fusionpbx_conference_center_add.jpg
         :scale: 85%
 
 
@@ -41,7 +41,7 @@ Apps > Conference Center > Click **Rooms** at the top right.  This will take you
 * Create a Room
 * Edit a Room
 
-.. image:: ../_static/images/applications/cclpbx_conference_center_rooms.jpg
+.. image:: ../_static/images/applications/fusionpbx_conference_center_rooms.jpg
         :scale: 85%
 
 
@@ -50,7 +50,7 @@ Conference Center Rooms Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-.. image:: ../_static/images/applications/cclpbx_conference_center_rooms_settings.jpg
+.. image:: ../_static/images/applications/fusionpbx_conference_center_rooms_settings.jpg
         :scale: 85%
 
 

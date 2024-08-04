@@ -6,7 +6,7 @@ A group of conference parameters saved together as a profile.
 
 
 
-.. image:: ../_static/images/applications/cclpbx_conference_profiles.jpg
+.. image:: ../_static/images/applications/fusionpbx_conference_profiles.jpg
         :scale: 85%
 
 
@@ -18,7 +18,7 @@ A group of conference parameters saved together as a profile.
 Default Profile
 ^^^^^^^^^^^^^^^^
 
-.. image:: ../_static/images/applications/conference_profiles/cclpbx_conference_profiles.jpg
+.. image:: ../_static/images/applications/conference_profiles/fusionpbx_conference_profiles.jpg
         :scale: 85%
 
 

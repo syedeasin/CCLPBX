@@ -10,7 +10,7 @@ Menu -> NAT -> Advanced Outbound NAT (enabled)
 
 set static port to yes
 
-.. image:: ../../_static/images/firewall/cclpbx_pfsense_firewall_outbound.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_pfsense_firewall_outbound.jpg
         :scale: 85%
 
 
@@ -25,7 +25,7 @@ System -> Advanced -> Firewall NAT -> Firewall Optimization
 select Conservative
 
 
-.. image:: ../../_static/images/firewall/cclpbx_pfsense_firewall_and_nat.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_pfsense_firewall_and_nat.jpg
         :scale: 85%
 
 
@@ -33,7 +33,7 @@ select Conservative
 **Create Alias Ports in pfSense**
 ----------------------------------------
 
-.. image:: ../../_static/images/firewall/cclpbx_pfsense.png
+.. image:: ../../_static/images/firewall/fusionpbx_pfsense.png
         :scale: 85%
 
 * Configure pfSense to open the necessary ports for cclpbx and Freeswitch.
@@ -64,7 +64,7 @@ select Conservative
 **Configure pfSense Port Forwarding**
 -----------------------------------------
 
-.. image:: ../../_static/images/firewall/cclpbx_pfsense2.png
+.. image:: ../../_static/images/firewall/fusionpbx_pfsense2.png
         :scale: 85%
 
 * Click on the '+' to ADD a new Entry.

@@ -10,5 +10,5 @@ To configure the Flyingvoice phone do the following steps.
 * Under **Configuration Profile**, fill in the **Profile Rule** field.  This will be https://domain.tld/app/provision  Replace domain.tld with your actual domain name.
 * Click **Save & Apply.**
 
-.. image:: ../../_static/images/provision/cclpbx_auto_flyingvoice_provision.png
+.. image:: ../../_static/images/provision/fusionpbx_auto_flyingvoice_provision.png
         :scale: 85%

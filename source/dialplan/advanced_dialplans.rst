@@ -18,7 +18,7 @@ You can create a new dialplan or copy and modify an existing dialplan.
 
 * Complete required fields and click save.
 
-.. image:: ../_static/images/dialplan/cclpbx_dialplan_advanced.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_dialplan_advanced.jpg
         :scale: 85%
 
 
@@ -27,12 +27,12 @@ Edit a Dialplan
 
 Find the dialplan you want to edit and click the edit icon.
 
-.. image:: ../_static/images/dialplan/cclpbx_dialplan_advanced1.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_dialplan_advanced1.jpg
         :scale: 85%
 
 Once you enter data into the empty fields at the bottom and click save, more blank fileds will populate if needed.
 
-.. image:: ../_static/images/dialplan/cclpbx_dialplan_advanced2.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_dialplan_advanced2.jpg
         :scale: 85%
 
 
@@ -41,7 +41,7 @@ Enable a Dialplan Destination
 
 Dialplans that have a value in the **Number** filed can be enabled and used in `Dialplan > Destinations <../dialplan/destinations.html>`_. Setting the **destination** field to **True** will enable the dialplan to be visable and used as an action in `Dialplan > Destinations <../dialplan/destinations.html>`_.
 
-.. image:: ../_static/images/dialplan/cclpbx_dialplan_destination.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_dialplan_destination.jpg
         :scale: 85%
 
 Dialplan example
@@ -52,7 +52,7 @@ This example will be for calling an extension on another tenant.  This can be do
 * We can use the adding a dialplan example and modify it for this example.
 
 
-.. image:: ../_static/images/dialplan/cclpbx_dialplan_advanced2.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_dialplan_advanced2.jpg
         :scale: 85%
 
 
@@ -78,7 +78,7 @@ This would require a prefix of 5 followed by 4 digit extensions. The prefix can 
 * Finally we have the desired dialplan to call from tenant A to tenant B.
 
 
-.. image:: ../_static/images/dialplan/cclpbx_custom_dialplan.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_custom_dialplan.jpg
         :scale: 85%
 
 

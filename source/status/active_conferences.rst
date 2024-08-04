@@ -4,12 +4,12 @@ Active Conferences
 
 List all the conferences that are currently active with one or more members.
 
-.. image:: ../_static/images/Status/active_conferences/cclpbx_active_conferences.jpg
+.. image:: ../_static/images/Status/active_conferences/fusionpbx_active_conferences.jpg
         :scale: 85%
 
 * Click view to view the active conference.
 
-.. image:: ../_static/images/Status/active_conferences/cclpbx_status_interactive_conference.jpg
+.. image:: ../_static/images/Status/active_conferences/fusionpbx_status_interactive_conference.jpg
         :scale: 85%
 
 

@@ -51,7 +51,7 @@ http://www.surevoip.co.uk/2016-best-provider
 
 ------------
 
-I would like to tell everyone there that I have been trying to get an open source PBX to work for me for over three months now and since I am not a linux guy, I haven’t been able to get any of them working the way I wanted. cclpbx installation script installed ALL required packages and libraries in one go and it was up and running in 10 mins. Once I followed the `youtube videos <https://www.youtube.com/cclpbx>`_ it took me no time to setup and migrate my clients to cclpbx. One of the best features I love in cclpbx is the automatic dialplan expression as I have always struggled with remembering the expression syntax. The user interface and the way all the features are grouped is awesome.
+I would like to tell everyone there that I have been trying to get an open source PBX to work for me for over three months now and since I am not a linux guy, I haven’t been able to get any of them working the way I wanted. cclpbx installation script installed ALL required packages and libraries in one go and it was up and running in 10 mins. Once I followed the `youtube videos <https://www.youtube.com/fusionpbx>`_ it took me no time to setup and migrate my clients to cclpbx. One of the best features I love in cclpbx is the automatic dialplan expression as I have always struggled with remembering the expression syntax. The user interface and the way all the features are grouped is awesome.
 
 *Again, Thanks for the effort*
 
@@ -63,7 +63,7 @@ I would like to tell everyone there that I have been trying to get an open sourc
 
 cclpbx Will Be My Default Choice From Now On.
 
-I just did my first install of cclpbx a few days ago. All my prior background has been in the Asterisk/FreePBX community. But my introduction to the freeSWITCH/cclpbx community has been a very pleasant one. The change does include a small learning curve, but the advantages far out way the effort required to learn the new platform. Suddenly a lot of prior headaches and work arounds are gone. The install is painless and simple compared to FreePBX. And after it is installed it works! This is especially note worthy if you are used to trying to get everything working with FreePBX on a VPS. This worked perfect on a VPS.
+I just did my first install of cclpbx a few days ago. All my prior background has been in the Asterisk/FreePBX community. But my introduction to the freeSWITCH/fusionpbx community has been a very pleasant one. The change does include a small learning curve, but the advantages far out way the effort required to learn the new platform. Suddenly a lot of prior headaches and work arounds are gone. The install is painless and simple compared to FreePBX. And after it is installed it works! This is especially note worthy if you are used to trying to get everything working with FreePBX on a VPS. This worked perfect on a VPS.
 
 Now for the more practical end of things. I found the features and functionality of cclpbx to be very comprehensive. The monitoring and control you have over active calls is second to none. And unlike most GUI's you do not need to sacrifice functionality for the use of a GUI. With the dial plan manager you can easily add almost any custom dial plan that you could by editing the xml directly. And as if that is not enough, there is a built in editor for all the xml and config files.
 
@@ -92,4 +92,4 @@ I came from a Trixbox background. I had experienced limitations with the Trixbox
 
 ------------
 
-We would love to hear from you!  Please reach out to us at http://cclpbx.com/support.php if you would like to be featured on this page.
+We would love to hear from you!  Please reach out to us at http://fusionpbx.com/support.php if you would like to be featured on this page.

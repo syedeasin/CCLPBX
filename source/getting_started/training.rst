@@ -14,7 +14,7 @@ Free
 cclpbx has content available in this document and videos on YouTube to help get you started.
 
 * Free Self help is available for you right here at docs.cclpbx.com
-* Videos at https://youtube.com/cclpbx
+* Videos at https://youtube.com/fusionpbx
 
 
 `Paid Training and technical support <https://www.cclpbx.com/training.php>`_

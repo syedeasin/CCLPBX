@@ -5,7 +5,7 @@ Sip Profiles
 *  Advanced -> SIP Profiles
 
 
-.. image:: ../_static/images/cclpbx_sip_profiles.jpg
+.. image:: ../_static/images/fusionpbx_sip_profiles.jpg
         :scale: 80%
 
 

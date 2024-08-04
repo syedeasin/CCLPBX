@@ -7,14 +7,14 @@ Conferences is used to setup conference rooms with a name, description, and opti
 .. note::  For advanced conferencing use Apps -> Conference Center
 
 
-.. image:: ../_static/images/applications/conference/cclpbx_conferences.jpg
+.. image:: ../_static/images/applications/conference/fusionpbx_conferences.jpg
         :scale: 85%
 
 
 Conference Settings
 --------------------
 
-.. image:: ../_static/images/applications/conference/cclpbx_conference_add.jpg
+.. image:: ../_static/images/applications/conference/fusionpbx_conference_add.jpg
         :scale: 85%
 
 
@@ -44,11 +44,11 @@ By default Conferences use to be hidden from the menu.
 *  To add Conferences to the menu goto **Advanced > Menu Manager** and click the pencil edit icon on the right
 *  Then click the pencil edit icon on the right of **Conferences**
 
-.. image:: ../_static/images/cclpbx_conferences1.jpg
+.. image:: ../_static/images/fusionpbx_conferences1.jpg
         :scale: 85%
 
 *  Select from the **Groups** dropdown list superadmin and click **add** then **save**  
 
 
-.. image:: ../_static/images/cclpbx_conferences2.jpg
+.. image:: ../_static/images/fusionpbx_conferences2.jpg
         :scale: 85%

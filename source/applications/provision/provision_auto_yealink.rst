@@ -12,7 +12,7 @@ To configure the Yealink phone do the following steps.
 * Click **Auto Provision Now** at the bottom
 
 
-.. image:: ../../_static/images/cclpbx_provision_auto_yealink.jpg
+.. image:: ../../_static/images/fusionpbx_provision_auto_yealink.jpg
         :scale: 85%
 
 
@@ -24,5 +24,5 @@ If you have a Certificate that is self-signed or not in the Yealink's trusted ce
 * Click **Confirm**
 * The phone will reboot and then provision using the information that was provided.
 
-.. image:: ../../_static/images/cclpbx_provision_auto_yealink1.jpg
+.. image:: ../../_static/images/fusionpbx_provision_auto_yealink1.jpg
         :scale: 85%

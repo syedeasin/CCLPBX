@@ -8,18 +8,18 @@ To auto provision Polycom
 * Go to the top menu an choose Utilities > Phone backup & restore. (Always good to start with factory defaults)
 
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_polycom_factory_default.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_polycom_factory_default.jpg
         :scale: 85%
 
 * Click The plus to the left of Global Settings then click **Restore.**
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_polycom_factory_default1.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_polycom_factory_default1.jpg
         :scale: 85%
 
 * Login to the phone again.
 * Click Settings > Provisioning Server.
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_polycom_provision.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_polycom_provision.jpg
         :scale: 85%
 
 * Choose the **Server Type** as http.  (If you have ssl certificate that polycom approves then choose https instead.)
@@ -28,6 +28,6 @@ To auto provision Polycom
 * Choose **Enable on **Tag SN to UA**
 *  Click **Save** to Provision the Polycom.  You should hear a tone meaning the phone reached out to the server and provisioned.
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_polycom_provision1.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_polycom_provision1.jpg
         :scale: 85%
 

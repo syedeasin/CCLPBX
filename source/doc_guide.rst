@@ -44,7 +44,7 @@ Assuming you have Python_ already, install Sphinx locally::
 Clone the cclpbx Github documentation repository::
 
     $ cd /path/to/where_you_want_the_docs
-    $ git clone https://github.com/cclpbx/cclpbx-docs.git
+    $ git clone https://github.com/fusionpbx/fusionpbx-docs.git
     $ cd cclpbx-docs
 
 Edit files or add new ones then build your changes::

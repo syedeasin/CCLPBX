@@ -11,10 +11,10 @@ Send and receive SMS and MMS messages. This tool utilizes a service called, mess
 
 ::
 
- cd /var/www/cclpbx/app
- git clone https://github.com/cclpbx/cclpbx-app-messages.git messages
- git clone https://github.com/cclpbx/cclpbx-app-providers.git providers
- php /var/www/cclpbx/core/upgrade/upgrade.php
+ cd /var/www/fusionpbx/app
+ git clone https://github.com/fusionpbx/fusionpbx-app-messages.git messages
+ git clone https://github.com/fusionpbx/fusionpbx-app-providers.git providers
+ php /var/www/fusionpbx/core/upgrade/upgrade.php
 
 |
 
@@ -45,7 +45,7 @@ Send and receive SMS and MMS messages. This tool utilizes a service called, mess
 
 ::
 
-  cp /var/www/cclpbx/app/messages/resources/service/debian-message_queue.service /etc/systemd/system/message_queue.service
+  cp /var/www/fusionpbx/app/messages/resources/service/debian-message_queue.service /etc/systemd/system/message_queue.service
   systemctl enable message_queue
   systemctl start message_queue
   systemctl daemon-reload
@@ -54,7 +54,7 @@ Send and receive SMS and MMS messages. This tool utilizes a service called, mess
 
 ::
 
-  cp /var/www/cclpbx/app/messages/resources/service/debian-message_events.service /etc/systemd/system/message_events.service
+  cp /var/www/fusionpbx/app/messages/resources/service/debian-message_events.service /etc/systemd/system/message_events.service
   systemctl enable message_events
   systemctl start message_events
   systemctl daemon-reload
@@ -68,7 +68,7 @@ Send and receive SMS and MMS messages. This tool utilizes a service called, mess
 
 ::
 
-  nano /etc/nginx/sites-enabled/cclpbx
+  nano /etc/nginx/sites-enabled/fusionpbx
 
 |
 

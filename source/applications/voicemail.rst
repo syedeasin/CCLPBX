@@ -5,7 +5,7 @@ Voicemail
 
 To edit voicemail settings click the pencil edit icon on the right of the extension number.
 
-.. image:: ../_static/images/voicemail/cclpbx_voicemail.jpg
+.. image:: ../_static/images/voicemail/fusionpbx_voicemail.jpg
         :scale: 85%
 
 
@@ -21,7 +21,7 @@ Here you can edit voicemail settings.
 *  Forward Destinations- Forward voicemail messages to additional destinations
 *  Enabled- Enable or disable the voicemail box
 
-.. image:: ../_static/images/voicemail/cclpbx_voicemail2.jpg
+.. image:: ../_static/images/voicemail/fusionpbx_voicemail2.jpg
         :scale: 85%
 
 .. note::

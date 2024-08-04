@@ -17,6 +17,6 @@ How to Disable SIP ALG
 * Click ACCEPT
 
 
-.. image:: ../../_static/images/firewall/cclpbx_sonicwall.png
+.. image:: ../../_static/images/firewall/fusionpbx_sonicwall.png
         :scale: 85%
 

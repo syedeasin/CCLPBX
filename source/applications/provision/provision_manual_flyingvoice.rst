@@ -6,7 +6,7 @@ Setting up a **Flyingvoice** SIP phone through the phone's local http management
 
 * Once the phone powers up, press the **OK** button once or **Menu** > **Status** and the phone will display its IP address on the screen.  Navigate to that IP on another device in a web browser, and use **admin** for the username and **admin** for the password.
 
-.. image:: ../../_static/images/provision/cclpbx_manual_flyingvoice_login.png
+.. image:: ../../_static/images/provision/fusionpbx_manual_flyingvoice_login.png
         :scale: 85%
 
 * **Enter the following information for each Account that is required:**
@@ -22,7 +22,7 @@ Setting up a **Flyingvoice** SIP phone through the phone's local http management
 * Set **Voice Mailbox Numbers** to *97
 * Click **Save & Apply.**
 
-.. image:: ../../_static/images/provision/cclpbx_manual_flyingvoice_reg.png
+.. image:: ../../_static/images/provision/fusionpbx_manual_flyingvoice_reg.png
         :scale: 85%
 
 

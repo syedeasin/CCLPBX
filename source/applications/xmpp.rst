@@ -5,7 +5,7 @@ XMPP Manager
 
 XMPP Manager is an optional menu item.  In order to have the option for XMPP Manager there are a few step to take to enble XMPP.
 
-.. image:: ../_static/images/cclpbx_xmpp1.jpg
+.. image:: ../_static/images/fusionpbx_xmpp1.jpg
         :scale: 85%
 
 **XMPP Profile**
@@ -35,7 +35,7 @@ In this example we will setup Google Talk and by creating a profile called gtalk
  Auto-Login: yes
  XMPP Server: talk.google.com
 
-.. image:: ../_static/images/cclpbx_xmpp2.jpg
+.. image:: ../_static/images/fusionpbx_xmpp2.jpg
         :scale: 85%
 
 
@@ -74,7 +74,7 @@ Go back to Accounts -> XMPP if the status says **'AUTHORIZED'** then you are rea
 
 **Note** If you are not getting AUTHORIZED you might need to goto the google account settings and choose "Allow less secure apps: ON" under the Sign-in & security section.
 
-.. image:: ../_static/images/cclpbx_xmpp5.jpg
+.. image:: ../_static/images/fusionpbx_xmpp5.jpg
         :scale: 85%
 
 **Outbound Routes**
@@ -105,10 +105,10 @@ Goto command line
 ::
 
  cd /tmp
- git clone https://github.com/cclpbx/cclpbx-apps.git 
+ git clone https://github.com/fusionpbx/fusionpbx-apps.git 
  cd cclpbx-apps/
- mv xmpp/ /var/www/cclpbx/app/
- cd /var/www/cclpbx/app
+ mv xmpp/ /var/www/fusionpbx/app/
+ cd /var/www/fusionpbx/app
  chown www-data:www-data -R xmpp/
 
 

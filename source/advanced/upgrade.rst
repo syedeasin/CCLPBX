@@ -14,7 +14,7 @@ The cclpbx code is constantly evolving.
 *  More scalable
 *  New features
 
-A complete summary of the changes can be found on the github code page https://github.com/cclpbx/cclpbx/commits/master.  
+A complete summary of the changes can be found on the github code page https://github.com/fusionpbx/fusionpbx/commits/master.  
 
 Go to the menu then click on Advanced and then Upgrade. This tool allows you to update the source code, update the database structure, restore the default menu and  permissions. `Click here for the Youtube video <https://youtu.be/QUB3u9pZ7ks>`_.
 
@@ -24,7 +24,7 @@ Go to the menu then click on Advanced and then Upgrade. This tool allows you to 
     <iframe width="100%" height="350" src="https://www.youtube.com/embed/QUB3u9pZ7ks?rel=0" frameborder="0" ; encrypted-media" allowfullscreen></iframe>
     </div>
 
-.. image:: ../_static/images/cclpbx_upgrade.jpg
+.. image:: ../_static/images/fusionpbx_upgrade.jpg
         :scale: 85%
 
 |
@@ -33,7 +33,7 @@ Go to the menu then click on Advanced and then Upgrade. This tool allows you to 
 
 ::
 
- * cd /var/www/cclpbx 
+ * cd /var/www/fusionpbx 
  git pull
  chown -R www-data:www-data *
 
@@ -51,7 +51,7 @@ Go to the menu then click on Advanced and then Upgrade. This tool allows you to 
 How to Upgrade
 ##############
 
-.. image:: ../_static/images/cclpbx_upgrade_green.jpg
+.. image:: ../_static/images/fusionpbx_upgrade_green.jpg
         :scale: 100%
 
 |
@@ -74,29 +74,29 @@ Used to update cclpbx to the latest release.
  
 ::
 
- mkdir /etc/cclpbx
- mv /var/www/cclpbx/resources/config.php /etc/cclpbx
- mv /usr/local/freeswitch/scripts/resources/config.lua /etc/cclpbx
+ mkdir /etc/fusionpbx
+ mv /var/www/fusionpbx/resources/config.php /etc/fusionpbx
+ mv /usr/local/freeswitch/scripts/resources/config.lua /etc/fusionpbx
  cd /var/www
  cp -R cclpbx cclpbx_backup
  # Change the directory to the cclpbx directory
- cd /var/www/cclpbx
+ cd /var/www/fusionpbx
 
-**Update the source code** (example assumes cclpbx is in /var/www/cclpbx)
+**Update the source code** (example assumes cclpbx is in /var/www/fusionpbx)
  
 ::
 
- cd /var/www/cclpbx
+ cd /var/www/fusionpbx
  git pull
  
 | **Permissions**
 | Reset the permissions on the cclpbx directory tree. When you do **git pull** it sets the permissions on any updated files to match the account that you are running **git pull** with. If that account is different to the web server account it will result in some files no longer being accessible and a red bar error at the top of the upgrade screen on the GUI.  To fix this you should reapply the permissions in cclpbx and recursively in all directories inside it.
 |
-| The example assumes the web server runs as user 'www-data' and cclpbx is installed to /var/www/cclpbx. (chown -Rv Ownername:GroupName /var/www/cclpbx)
+| The example assumes the web server runs as user 'www-data' and cclpbx is installed to /var/www/fusionpbx. (chown -Rv Ownername:GroupName /var/www/fusionpbx)
 
 ::
 
- cd /var/www/cclpbx
+ cd /var/www/fusionpbx
  chown -R www-data:www-data *
 
 
@@ -119,11 +119,11 @@ Used to update cclpbx to the latest release.
  cp -R /usr/share/freeswitch/scripts /usr/share/freeswitch/scripts-bak
  rm -Rf /usr/share/freeswitch/scripts/
  cd /usr/src
- git clone https://github.com/cclpbx/cclpbx.git
- cp -R /usr/src/cclpbx/app/switch/resources/scripts/ /usr/share/freeswitch
+ git clone https://github.com/fusionpbx/fusionpbx.git
+ cp -R /usr/src/fusionpbx/app/switch/resources/scripts/ /usr/share/freeswitch
  chown -R www-data:www-data /usr/share/freeswitch/scripts
 
- # (The last step above is not required if your config.lua file is being stored in a different location, such as the /etc/cclpbx folder.)
+ # (The last step above is not required if your config.lua file is being stored in a different location, such as the /etc/fusionpbx folder.)
  cp -R /usr/share/freeswitch/scripts-bak/resources/functions/config.lua /usr/share/freeswitch/scripts/resources/functions/config.lua
 
 
@@ -155,7 +155,7 @@ Used to update cclpbx to the latest release.
 | From the GUI, run **Advanced -> Upgrade Schema** which will add any needed newer tables or columns.
 | Then run **App Defaults**. *If you removed the scripts on Step 2 then run this* **twice**.
 
-.. image:: ../_static/images/cclpbx_upgrade_schema_data_types.jpg
+.. image:: ../_static/images/fusionpbx_upgrade_schema_data_types.jpg
         :scale: 85%
 
 |
@@ -167,8 +167,8 @@ Used to update cclpbx to the latest release.
  
 ::
  
- cd /var/www/cclpbx
- /usr/bin/php /var/www/cclpbx/core/upgrade/upgrade.php
+ cd /var/www/fusionpbx
+ /usr/bin/php /var/www/fusionpbx/core/upgrade/upgrade.php
 
 | If your screen was nicely formatted with a cclpbx theme, and suddenly now goes to a black and white screen with familiar text but no theme, it is because you were using a theme which no longer exists in the latest version of the code.  If this happens to you navigate to:
 
@@ -230,23 +230,23 @@ cclpbx has a stable and a master(development) branch.  You can switch from stabl
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ::
 
- mv /var/www/cclpbx /var/www/cclpbx-old
- cd /var/www && git clone -b 4.4 https://github.com/cclpbx/cclpbx.git
- chown -R www-data:www-data /var/www/cclpbx
+ mv /var/www/fusionpbx /var/www/fusionpbx-old
+ cd /var/www && git clone -b 4.4 https://github.com/fusionpbx/fusionpbx.git
+ chown -R www-data:www-data /var/www/fusionpbx
 
-Make sure config.php exists in /etc/cclpbx If missing then move it into this directory.
+Make sure config.php exists in /etc/fusionpbx If missing then move it into this directory.
 
 ::
  
- cp /var/www/cclpbx-master/resources/config.php /etc/cclpbx
+ cp /var/www/fusionpbx-master/resources/config.php /etc/fusionpbx
 
 **Move to the Master Branch**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ::
  
- mv /var/www/cclpbx /var/www/cclpbx-old
- cd /var/www && git clone https://github.com/cclpbx/cclpbx.git
- chown -R www-data:www-data /var/www/cclpbx
+ mv /var/www/fusionpbx /var/www/fusionpbx-old
+ cd /var/www && git clone https://github.com/fusionpbx/fusionpbx.git
+ chown -R www-data:www-data /var/www/fusionpbx
 
 *  Complete the normal upgrade process at Advanced -> Upgrade
 *  If the menu disappears you have to upgrade schema then restore the default menu to get it back.

@@ -6,7 +6,7 @@ Modules
 Modules extend the features of the system. Use this page to enable or disable modules.
 
 
-.. image:: ../_static/images/advanced/cclpbx_advanced_modules.jpg
+.. image:: ../_static/images/advanced/fusionpbx_advanced_modules.jpg
         :scale: 85%
 
 

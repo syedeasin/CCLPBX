@@ -19,7 +19,7 @@ Setting up a **Fanvil** SIP phone through the phone's local http management port
   
 * Click Apply
 
-.. image:: ../../_static/images/provision/cclpbx_provision_manual_fanvil.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_manual_fanvil.jpg
         :scale: 85%
 
 
@@ -29,6 +29,6 @@ Setting up a **Fanvil** SIP phone through the phone's local http management port
 * Scroll to the bottom and click **Reboot**
 
 
-.. image:: ../../_static/images/provision/cclpbx_provision_manual_fanvil1.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_manual_fanvil1.jpg
         :scale: 85%
 

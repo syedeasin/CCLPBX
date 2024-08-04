@@ -14,7 +14,7 @@ Welcome to the adding IVR section.  Here you will find how to add and edit IVR's
 * Click on **Apps** then **IVR Menu**
 * Click the Plus icon on the right
 
-.. image:: ../_static/images/cclpbx_ivr1.jpg
+.. image:: ../_static/images/fusionpbx_ivr1.jpg
          :scale: 85%
 
 
@@ -33,7 +33,7 @@ Welcome to the adding IVR section.  Here you will find how to add and edit IVR's
 
 
 
-.. image:: ../_static/images/cclpbx_ivr2.jpg
+.. image:: ../_static/images/fusionpbx_ivr2.jpg
         :scale: 85%
 
 
@@ -48,7 +48,7 @@ You can get very creative with IVR's and are almost limitless in possibilities. 
 
 
 
-.. image:: ../_static/images/cclpbx_ivr3.jpg
+.. image:: ../_static/images/fusionpbx_ivr3.jpg
         :scale: 85%
 
 
@@ -56,7 +56,7 @@ You now have a list of IVR's to go back to and edit or delete as needed.
 
 
 
-.. image:: ../_static/images/cclpbx_ivr4.jpg
+.. image:: ../_static/images/fusionpbx_ivr4.jpg
         :scale: 85%
 
 

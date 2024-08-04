@@ -22,7 +22,7 @@ Setting up a **Htek** SIP phone through the phone's local http management portal
 * Click **Autoprovision Now**
 
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_htek.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_htek.jpg
         :scale: 85%
 
 
@@ -39,5 +39,5 @@ Some additional settings need adjusted to provision with a self signed certifica
    * Trusted Certificates: All Certificates 
 
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_htek1.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_htek1.jpg
         :scale: 85%

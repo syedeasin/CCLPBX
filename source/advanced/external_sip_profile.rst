@@ -4,7 +4,7 @@ External Sip Profile
 
 
 
-.. image:: ../_static/images/cclpbx_external_sip_profile.jpg
+.. image:: ../_static/images/fusionpbx_external_sip_profile.jpg
         :scale: 80%
 
 

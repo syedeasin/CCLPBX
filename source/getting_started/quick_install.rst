@@ -25,13 +25,13 @@ Paste the following commands in the console window **one line at a time**.
 
 ::
 
- wget -O - https://raw.githubusercontent.com/cclpbx/cclpbx-install.sh/master/debian/pre-install.sh | sh; 
+ wget -O - https://raw.githubusercontent.com/fusionpbx/fusionpbx-install.sh/master/debian/pre-install.sh | sh; 
 
 |
 
 ::
 
- cd /usr/src/cclpbx-install.sh/debian && ./install.sh
+ cd /usr/src/fusionpbx-install.sh/debian && ./install.sh
 
 |
 
@@ -47,7 +47,7 @@ If using **Debian on Proxmox LXC** containers please run the following **BEFORE*
 
 |
 
-**2.** At the end of the install, the script will instruct you to go to the ip address of the server (or domain name) in your web browser to login. The script will also provide a username and secure random password for you to use. This can be changed after you login. The install script builds the cclpbx database. If you need the database password it is located in /etc/cclpbx/config.php .
+**2.** At the end of the install, the script will instruct you to go to the ip address of the server (or domain name) in your web browser to login. The script will also provide a username and secure random password for you to use. This can be changed after you login. The install script builds the cclpbx database. If you need the database password it is located in /etc/fusionpbx/config.php .
 
 
 ::
@@ -64,7 +64,7 @@ If using **Debian on Proxmox LXC** containers please run the following **BEFORE*
       username: admin@x.x.x.x
 
    Additional information.
-      https://cclpbx.com/support.php
+      https://fusionpbx.com/support.php
       https://www.cclpbx.com
       http://docs.cclpbx.com
       https://www.cclpbx.com/training.php

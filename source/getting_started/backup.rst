@@ -4,12 +4,12 @@ Backup
 
 |
 
-It's always good to have a backup method in place.  Here are the steps to a basic backup method with cclpbx. The install script on Debian will automatically copy this backup script to /etc/cron.daily/cclpbx-backup. Backups get stored in /var/backups/cclpbx/postgresql by default.
+It's always good to have a backup method in place.  Here are the steps to a basic backup method with cclpbx. The install script on Debian will automatically copy this backup script to /etc/cron.daily/fusionpbx-backup. Backups get stored in /var/backups/fusionpbx/postgresql by default.
 
 Command Line
 ^^^^^^^^^^^^^^
 
-Be sure to change the password by replacing the zzzzzzzz in PGPASSWORD="zzzzzzzz" with your database password. You can get the password from /etc/cclpbx/config.php.
+Be sure to change the password by replacing the zzzzzzzz in PGPASSWORD="zzzzzzzz" with your database password. You can get the password from /etc/fusionpbx/config.php.
 
 
 ::
@@ -25,28 +25,28 @@ Be sure to change the password by replacing the zzzzzzzz in PGPASSWORD="zzzzzzzz
  db_port=5432
  
  now=$(date +%Y-%m-%d)
- mkdir -p /var/backups/cclpbx/postgresql
+ mkdir -p /var/backups/fusionpbx/postgresql
  
  echo "Backup Started"
  
  #delete postgres backups
- find /var/backups/cclpbx/postgresql/cclpbx_pgsql* -mtime +4 -exec rm {} \;
+ find /var/backups/fusionpbx/postgresql/fusionpbx_pgsql* -mtime +4 -exec rm {} \;
  
  #delete the main backup
- find /var/backups/cclpbx/*.tgz -mtime +2 -exec rm {} \;
+ find /var/backups/fusionpbx/*.tgz -mtime +2 -exec rm {} \;
  
  #backup the database
- pg_dump --verbose -Fc --host=$db_host --port=$db_port -U cclpbx cclpbx --schema=public -f /var/backups/cclpbx/postgresql/cclpbx_pgsql_$now.sql
+ pg_dump --verbose -Fc --host=$db_host --port=$db_port -U cclpbx cclpbx --schema=public -f /var/backups/fusionpbx/postgresql/fusionpbx_pgsql_$now.sql
  
  #package
- #tar --exclude='/var/lib/freeswitch/recordings/*/archive' -zvcf /var/backups/cclpbx/backup_$now.tgz /var/backups/cclpbx/postgresql/cclpbx_pgsql_$now.sql /var/www/cclpbx /usr/share/freeswitch/scripts /var/lib/freeswitch/storage /var/lib/freeswitch/recordings /etc/cclpbx /etc/freeswitch /usr/share/freeswitch/sounds/music/
+ #tar --exclude='/var/lib/freeswitch/recordings/*/archive' -zvcf /var/backups/fusionpbx/backup_$now.tgz /var/backups/fusionpbx/postgresql/fusionpbx_pgsql_$now.sql /var/www/fusionpbx /usr/share/freeswitch/scripts /var/lib/freeswitch/storage /var/lib/freeswitch/recordings /etc/fusionpbx /etc/freeswitch /usr/share/freeswitch/sounds/music/
 
  #source
- #tar -zvcf /var/backups/cclpbx/backup_$now.tgz /var/backups/cclpbx/postgresql/cclpbx_pgsql_$now.sql /var/www/cclpbx /usr/local/freeswitch/scripts /usr/local/freeswitch/storage /usr/local/freeswitch/recordings /etc/cclpbx /usr/local/freeswitch/conf /usr/local/freeswitch/sounds/music/
+ #tar -zvcf /var/backups/fusionpbx/backup_$now.tgz /var/backups/fusionpbx/postgresql/fusionpbx_pgsql_$now.sql /var/www/fusionpbx /usr/local/freeswitch/scripts /usr/local/freeswitch/storage /usr/local/freeswitch/recordings /etc/fusionpbx /usr/local/freeswitch/conf /usr/local/freeswitch/sounds/music/
  
 #sync certificate directory
 rsync -avz -e 'ssh -p 22' root@$ssh_server:/etc/dehydrated/ /etc
-rsync -avz -e 'ssh -p 22' root@$ssh_server:/usr/src/cclpbx-install.sh/debian/resources/letsencrypt.sh /usr/src/cclpbx-install.sh/debian/resources/
+rsync -avz -e 'ssh -p 22' root@$ssh_server:/usr/src/fusionpbx-install.sh/debian/resources/letsencrypt.sh /usr/src/fusionpbx-install.sh/debian/resources/
 rsync -avz -e 'ssh -p 22' root@$ssh_server:/etc/dehydrated/accounts/ /etc/dehydrated/
 rsync -avz -e 'ssh -p 22' root@$ssh_server:/etc/dehydrated/chains/ /etc/dehydrated/
 rsync -avz -e 'ssh -p 22' root@$ssh_server:/etc/dehydrated/config/ /etc/dehydrated/
@@ -76,9 +76,9 @@ Setting crontab -e
  crontab -e
  Choose 1 for nano
  Goto the last blank line and paste in the next line.
- 0 0 * * * /bin/sh /etc/cron.daily/cclpbx-backup.sh
+ 0 0 * * * /bin/sh /etc/cron.daily/fusionpbx-backup.sh
  press enter then save and exit.
  
 
-Once this is complete you will have the backup ready to execute by ./cclpbx-backup or from the daily cron job. 
+Once this is complete you will have the backup ready to execute by ./fusionpbx-backup or from the daily cron job. 
 

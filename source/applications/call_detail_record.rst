@@ -4,7 +4,7 @@ Call Detail Records
 
 Call Detail Records (CDRs) are detailed information on the calls. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button. 
 
-.. image:: ../_static/images/cclpbx_cdr.jpg
+.. image:: ../_static/images/fusionpbx_cdr.jpg
         :scale: 85%
 
 
@@ -85,7 +85,7 @@ Comment out this line  by adding <!-- and -->. Make sure to do  this carefully.
 
 Run  this  command  one time to add the import command to crontab.
 
-  (crontab -l; echo "* * * * * $(which php) /var/www/cclpbx/app/xml_cdr/xml_cdr_import.php 300") | crontab
+  (crontab -l; echo "* * * * * $(which php) /var/www/fusionpbx/app/xml_cdr/xml_cdr_import.php 300") | crontab
 
 
 Once you've made these changes you can save the file. You could restart your server, or you could reloadxml and then restart the xml_cdr module.  Either is ok, it is up to you. Then your changes will have taken effect and you should no longer lose your menu bar when looking at CDR information.

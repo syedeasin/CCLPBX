@@ -5,7 +5,7 @@ Log Viewer
 View recent PBX activity and option to download the logs.
 
 
-.. image:: ../_static/images/Status/cclpbx_status_log_viewer.jpg
+.. image:: ../_static/images/Status/fusionpbx_status_log_viewer.jpg
         :scale: 85%
 
 *  **Filter-** Filter by specfic input

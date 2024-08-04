@@ -24,7 +24,7 @@ Install Instructions
 
 ::
 
- cp /var/www/cclpbx/app/event_guard/resources/service/debian.service /etc/systemd/system/event_guard.service
+ cp /var/www/fusionpbx/app/event_guard/resources/service/debian.service /etc/systemd/system/event_guard.service
  systemctl enable event_guard
  systemctl start event_guard
  systemctl daemon-reload
@@ -32,7 +32,7 @@ Install Instructions
 
 - or as a cron job
 
- php /var/www/cclpbx/app/event_guard/resources/service/event_guard.php >/dev/null 2>&1 &
+ php /var/www/fusionpbx/app/event_guard/resources/service/event_guard.php >/dev/null 2>&1 &
 
 ::
 

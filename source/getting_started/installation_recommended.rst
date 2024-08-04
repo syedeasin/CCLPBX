@@ -12,13 +12,13 @@ CLICK HERE FOR THE NEW INSTALL http://docs.cclpbx.com/en/latest/getting_started/
     Welcome to the cclpbx getting started guide.  In this section we will show how to install cclpbx.  cclpbx can be used on multiple different operating systems, databases, and web servers.  In this guide we will show on Debian 8 (Jessie), Postgresql and NGINX.  **Please note to have a clean install.  The install script will install everthing but the Operating System**
     
     
-    **1.** Goto a console and follow the recomended steps from http://cclpbx.com/download.php  
+    **1.** Goto a console and follow the recomended steps from http://fusionpbx.com/download.php  
      
     ::
      
      cd /usr/src 
      apt-get install wget  
-     wget https://raw.githubusercontent.com/cclpbx/cclpbx-scripts/master/install/debian/install_cclpbx.sh  
+     wget https://raw.githubusercontent.com/fusionpbx/fusionpbx-scripts/master/install/debian/install_cclpbx.sh  
      chmod 755 install_cclpbx.sh 
      ./install_cclpbx.sh install-both auto 
      
@@ -102,9 +102,9 @@ CLICK HERE FOR THE NEW INSTALL http://docs.cclpbx.com/en/latest/getting_started/
      
      The cclpbx installation changed permissions of /usr/local/freeswitch/storage
      Waiting on you to finish installation (via browser), I'll clean up
-     the last bit of permissions when you finish.Waiting on /var/www/cclpbx/resources/config.php
+     the last bit of permissions when you finish.Waiting on /var/www/fusionpbx/resources/config.php
      
-     /var/www/cclpbx/resources/config.php Found!
+     /var/www/fusionpbx/resources/config.php Found!
      Waiting 5 more seconds to be sure.
      .....   Fixing...
      FIXED

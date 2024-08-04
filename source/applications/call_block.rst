@@ -9,7 +9,7 @@ Creating a New Call Block
 
 To create a new Call Block, click the **Add** button at the top-right of the Call Block list page.  A simple form will be presented...
 
-.. image:: ../_static/images/cclpbx_call_block.jpg
+.. image:: ../_static/images/fusionpbx_call_block.jpg
         :scale: 85%
 
 **Field Descriptions**
@@ -38,7 +38,7 @@ Outbound call blocking requires an additional dialplan entry.
 
 If one doesn't exist already, add a new **call-direction** Outbound Route to set `call_direction=outbound`...
 
-.. image:: ../_static/images/cclpbx_call_block1.jpg
+.. image:: ../_static/images/fusionpbx_call_block1.jpg
         :scale: 85%
 
 **Be sure to set *Continue* to True, or dialplan execution will never reach your existing Outbound Routes!**

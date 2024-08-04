@@ -5,7 +5,7 @@ Ubiquiti Edgerouter
 
 Ubiquiti Edgerouter Advanced Gigabit Ethernet Router.
 
-.. image:: ../../_static/images/firewall/cclpbx_ubnt_edgerouterx.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_ubnt_edgerouterx.jpg
         :scale: 85%
 
 
@@ -14,7 +14,7 @@ Port Forwarding
 
 Go to top first menu item Firewall/NAT then second top menu item Port Forwarding.
 
-.. image:: ../../_static/images/firewall/cclpbx_ubnt_port_forward.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_ubnt_port_forward.jpg
         :scale: 85%
 
 
@@ -40,7 +40,7 @@ If you are behind NAT and are going to use the Edgerouter subnet in addition to 
 * Edit WAN_LOCAL at the right menu item Actions > Edit RuleSet 
 
 
-.. image:: ../../_static/images/firewall/cclpbx_ubnt_firewall_policies_enable_outside_lan_gui_access.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_ubnt_firewall_policies_enable_outside_lan_gui_access.jpg
         :scale: 85%
 
 
@@ -48,7 +48,7 @@ If you are behind NAT and are going to use the Edgerouter subnet in addition to 
 * From the Configuration tab, Change the radio button to "Accept" and click "Save Ruleset".
 
 
-.. image:: ../../_static/images/firewall/cclpbx_ubnt_firewall_policies_enable_outside_lan_gui_access1.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_ubnt_firewall_policies_enable_outside_lan_gui_access1.jpg
         :scale: 85%
 
 
@@ -71,7 +71,7 @@ Scenerio: Router A is the primary router that has a public IP address and a LAN 
 * **Gateway:** 10.10.2.209 is the IP Router A gave to the Edgerouter WAN eth0.
 * **Interface:** LAN is a label on Router A to show it's a local area network address.
 
-.. image:: ../../_static/images/firewall/cclpbx_ubnt_static_route_other_router.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_ubnt_static_route_other_router.jpg
         :scale: 85%
 
 

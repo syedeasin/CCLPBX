@@ -152,7 +152,7 @@ Custom API
 
 Currently does not work with the cclpbx email_queue.
 
-API info from the Speech to Text provider of your choice is needed, or you can self host a transcription engine like `Mozilla DeepSpeech <https://git.callpipe.com/cclpbx/deepspeech_frontend>`_ or `Kaldi ASR <https://github.com/dialogflow/asr-server>`_
+API info from the Speech to Text provider of your choice is needed, or you can self host a transcription engine like `Mozilla DeepSpeech <https://git.callpipe.com/fusionpbx/deepspeech_frontend>`_ or `Kaldi ASR <https://github.com/dialogflow/asr-server>`_
 
 **Goto Advanced > Default Settings.**
 Add the following entries

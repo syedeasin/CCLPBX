@@ -14,7 +14,7 @@ Configure Inbound Destinations: (This will auto-configure an Inbound Route also)
 
 *Select* **Dialplan** from the drop-down list and then *click* **Destinations**. 
 
-.. image:: ../_static/images/cclpbx_inboundd.jpg
+.. image:: ../_static/images/fusionpbx_inboundd.jpg
         :scale: 85%
 
 Click on the
@@ -24,12 +24,12 @@ Click on the
 
 button on the right. 
 
-.. image:: ../_static/images/cclpbx_inboundd1.jpg
+.. image:: ../_static/images/fusionpbx_inboundd1.jpg
         :scale: 85%
 
 *Enter* the route information below and *Click* **Save** once complete.
 
-.. image:: ../_static/images/cclpbx_inboundd2.jpg
+.. image:: ../_static/images/fusionpbx_inboundd2.jpg
         :scale: 85%
 
 ::
@@ -64,7 +64,7 @@ Configure Outbound Route.
 
 Select **Dialplan** from the drop-down list and then click **Outbound Routes** . 
 
-.. image:: ../_static/images/cclpbx_outbound.jpg
+.. image:: ../_static/images/fusionpbx_outbound.jpg
         :scale: 85%
 
 Click the 
@@ -79,7 +79,7 @@ button on the right. Enter the route information below and Click **Save** once e
 |
 |
 
-.. image:: ../_static/images/cclpbx_outbound1.jpg
+.. image:: ../_static/images/fusionpbx_outbound1.jpg
         :scale: 85%
 
 |
@@ -88,7 +88,7 @@ button on the right. Enter the route information below and Click **Save** once e
 
 |
 
-.. image:: ../_static/images/cclpbx_outbound2.jpg
+.. image:: ../_static/images/fusionpbx_outbound2.jpg
         :scale: 85%
 
 |

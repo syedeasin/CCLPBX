@@ -6,7 +6,7 @@ Summary of extension activity per domain such as misssed calls, answered calls, 
 
 
 
-.. image:: ../_static/images/cclpbx_extension_summary.jpg
+.. image:: ../_static/images/fusionpbx_extension_summary.jpg
         :scale: 85%
 
 

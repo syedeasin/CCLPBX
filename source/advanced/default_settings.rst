@@ -6,7 +6,7 @@ Default Settings
 Default Settings used for all domains.  Branding can be done in this section, `see here to adjust <../advanced/domains.html#override-a-default-setting-for-one-domain>`_ or copy settings to specific domains.
 
 
-.. image:: ../_static/images/advanced/cclpbx_advanced_default_settings.jpg
+.. image:: ../_static/images/advanced/fusionpbx_advanced_default_settings.jpg
         :scale: 85%
 
 

@@ -10,7 +10,7 @@ To receive a FAX setup a fax extension and then direct the incoming to it. `Clic
     <iframe width="100%" height="350" src="https://www.youtube.com/embed/AJHcle2U3n4?rel=0" frameborder="0" ; encrypted-media" allowfullscreen></iframe>
     </div>
 
-.. image:: ../_static/images/cclpbx_fax.jpg
+.. image:: ../_static/images/fusionpbx_fax.jpg
         :scale: 85%
 
 * New: Create a new fax to send.
@@ -39,7 +39,7 @@ There are more settings for fax under Advanced > Default Settings then fax categ
 
 
 
-.. image:: ../_static/images/cclpbx_fax5.jpg
+.. image:: ../_static/images/fusionpbx_fax5.jpg
         :scale: 85%
 
 
@@ -49,7 +49,7 @@ New
 
 To send a fax, the items in **bold** are required.  To send a proper fax it is best to fill out all fields and attach any documents.  Keep in mind that the upload max MB is limited by Nginx and PHP config files.
 
-.. image:: ../_static/images/cclpbx_fax1.jpg
+.. image:: ../_static/images/fusionpbx_fax1.jpg
         :scale: 85%
 
 
@@ -59,7 +59,7 @@ Inbox
 Click **PDF** to view the fax or right click on **PDF** and left click on **Save Link As**. If you defined and email address in the **email** field you will receive the fax also to that email address.
 
 
-.. image:: ../_static/images/cclpbx_fax4.jpg
+.. image:: ../_static/images/fusionpbx_fax4.jpg
         :scale: 85%
 
 
@@ -71,7 +71,7 @@ Sent
 Click **PDF** to view the fax or right click on **PDF** and left click on **Save Link As**.
 
 
-.. image:: ../_static/images/cclpbx_fax3.jpg
+.. image:: ../_static/images/fusionpbx_fax3.jpg
         :scale: 85%
 
 

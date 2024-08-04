@@ -12,7 +12,7 @@ To manually provision Cisco
 * **Password** put the *extensions password* 
 * Click **Submit All Changes** at the bottom
 
-.. image:: ../../_static/images/cclpbx_provision_manual_cisco.jpg
+.. image:: ../../_static/images/fusionpbx_provision_manual_cisco.jpg
         :scale: 85%
 
 
@@ -24,7 +24,7 @@ Once you have that done, make sure the p-time is set to 0.020
 * Click **Submit All Changes** at the bottom
 
 
-.. image:: ../../_static/images/cclpbx_provision_manual_cisco1.jpg
+.. image:: ../../_static/images/fusionpbx_provision_manual_cisco1.jpg
         :scale: 85%
 
 

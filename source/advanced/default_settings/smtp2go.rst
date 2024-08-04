@@ -7,30 +7,30 @@ SMTP2GO is a paid email service for sending email.  They do however have 1,000 f
 
 1. Sign up for the service
 
-.. image:: ../../_static/images/advanced/default_settings/cclpbx_smtp2go.jpg
+.. image:: ../../_static/images/advanced/default_settings/fusionpbx_smtp2go.jpg
         :scale: 85%
 
 
 
 2. After you confirm your email, sign in. You can create an smtp user at this screen or in the next step.
 
-.. image:: ../../_static/images/advanced/default_settings/cclpbx_smtp2go3.jpg
+.. image:: ../../_static/images/advanced/default_settings/fusionpbx_smtp2go3.jpg
         :scale: 85%
 
 
 3. Go to Settings > Users and create an smtp user or additional smtp users.
 
-.. image:: ../../_static/images/advanced/default_settings/cclpbx_smtp2go_users.jpg
+.. image:: ../../_static/images/advanced/default_settings/fusionpbx_smtp2go_users.jpg
         :scale: 85%
 
 4. You can set authentication by ip address. It's a good idea to set the limit here also from Unlimited to match which plan you choose.
 
-.. image:: ../../_static/images/advanced/default_settings/cclpbx_smtp2go1.jpg
+.. image:: ../../_static/images/advanced/default_settings/fusionpbx_smtp2go1.jpg
         :scale: 85%
 
 5. Set the domain to your domain to make delivery seem as it came right from your own mail server.  This can help sending to strict email domains.
 
-.. image:: ../../_static/images/advanced/default_settings/cclpbx_smtp2go2.jpg
+.. image:: ../../_static/images/advanced/default_settings/fusionpbx_smtp2go2.jpg
         :scale: 85%
 
 

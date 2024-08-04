@@ -5,14 +5,14 @@ Call Center
 List of queues for the call center.
 
 
-.. image:: ../_static/images/cclpbx_call_center1.jpg
+.. image:: ../_static/images/fusionpbx_call_center1.jpg
         :scale: 85%
 
 Call Center Queues
 =====================
 
 
-.. image:: ../_static/images/cclpbx_call_center_queue.jpg
+.. image:: ../_static/images/fusionpbx_call_center_queue.jpg
         :scale: 85%
 
 *  To add a Call Center Queue **click** the Add button in the top right
@@ -26,7 +26,7 @@ Call Center Agents
 List of call center agents.
 
 
-.. image:: ../_static/images/cclpbx_call_center_agents.jpg
+.. image:: ../_static/images/fusionpbx_call_center_agents.jpg
         :scale: 85%
 
 
@@ -56,7 +56,7 @@ Call Center Agent Fields
 Call Center Strategies
 =========================
 
-.. image:: ../_static/images/applications/call_center/cclpbx_call_center_strategy.jpg
+.. image:: ../_static/images/applications/call_center/fusionpbx_call_center_strategy.jpg
         :scale: 85%
 
 

@@ -10,7 +10,7 @@ PHP Editor
 
 
 
-.. image:: ../_static/images/cclpbx_php.jpg
+.. image:: ../_static/images/fusionpbx_php.jpg
         :scale: 85%
 
 
@@ -23,7 +23,7 @@ Provisioning Editor
 
 
 
-.. image:: ../_static/images/cclpbx_provision.jpg
+.. image:: ../_static/images/fusionpbx_provision.jpg
         :scale: 85%
 
 
@@ -34,7 +34,7 @@ XML Editor
 ------------
 
 
-.. image:: ../_static/images/cclpbx_xml.jpg
+.. image:: ../_static/images/fusionpbx_xml.jpg
         :scale: 85%
 
 

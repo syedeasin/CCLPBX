@@ -20,7 +20,7 @@ Install Instructions
 
 ::
 
- cp /var/www/cclpbx/app/email_queue/resources/service/debian.service /etc/systemd/system/email_queue.service
+ cp /var/www/fusionpbx/app/email_queue/resources/service/debian.service /etc/systemd/system/email_queue.service
  systemctl enable email_queue
  systemctl start email_queue
  systemctl daemon-reload
@@ -30,7 +30,7 @@ Install Instructions
 ::
 
  crontab -e
- * * * * * cd /var/www/cclpbx && /usr/bin/php /var/www/cclpbx/app/email_queue/resources/service/email_queue.php
+ * * * * * cd /var/www/fusionpbx && /usr/bin/php /var/www/fusionpbx/app/email_queue/resources/service/email_queue.php
 
 
 Default Settings

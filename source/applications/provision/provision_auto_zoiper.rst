@@ -34,9 +34,9 @@ Zoiper menu add-on for cclpbx
 
 ::
 
- git clone https://github.com/cclpbx/cclpbx-apps
- cp -R cclpbx-apps/zoiper /var/www/cclpbx/app
- chown -R www-data:www-data /var/www/cclpbx/app/zoiper
+ git clone https://github.com/fusionpbx/fusionpbx-apps
+ cp -R cclpbx-apps/zoiper /var/www/fusionpbx/app
+ chown -R www-data:www-data /var/www/fusionpbx/app/zoiper
 
 | 1. Log into the cclpbx webpage
 | 2. Advanced -> Upgrade
@@ -48,7 +48,7 @@ Zoiper menu add-on for cclpbx
 | **Note** **MYPAGEID** and **provider_id** are two different sets of characters.  You can also find these by going into the oem.zoiper.com login and click "view" on the moblie section.
 
 
-.. image:: ../../_static/images/cclpbx_zoiper9.jpg
+.. image:: ../../_static/images/fusionpbx_zoiper9.jpg
         :scale: 75%
 
 | **provider_id**

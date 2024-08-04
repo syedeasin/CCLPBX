@@ -6,7 +6,7 @@ Auto provisioning with cclpbx and Grandstream.
 * Top Menu > Maintenance > Upgrade and Provisioning.
 
 
-.. image:: ../../_static/images/getting_started/cclpbx_provision_auto_grandstream.jpg
+.. image:: ../../_static/images/getting_started/fusionpbx_provision_auto_grandstream.jpg
         :scale: 85%
 
 Fill in the following fields:
@@ -25,7 +25,7 @@ Fill in the following fields:
  Generally with provisioning, if there is an option like Grandstream has for a box or radio button to choose https or http then it is not needed to type http:// or https:// in the config url.
 
 
-.. image:: ../../_static/images/getting_started/cclpbx_provision_auto_grandstream2.jpg
+.. image:: ../../_static/images/getting_started/fusionpbx_provision_auto_grandstream2.jpg
         :scale: 85%
 
 
@@ -34,7 +34,7 @@ Fill in the following fields:
 * Click **OK**
 
 
-.. image:: ../../_static/images/getting_started/cclpbx_provision_auto_grandstream1.jpg
+.. image:: ../../_static/images/getting_started/fusionpbx_provision_auto_grandstream1.jpg
         :scale: 85%
 
 

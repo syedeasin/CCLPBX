@@ -60,7 +60,7 @@ New Install Video https://www.youtube.com/embed/oioW1i8bieM
 Welcome to the cclpbx getting started guide.  In this section we will show how to install cclpbx.  cclpbx can be used on multiple different operating systems, databases, and web servers.  In this guide we will show on Debian 8 (Jessie), Postgresql and NGINX.  **Please note to have a clean install.  The install script will install everything but the Operating System**
     
     
-**1.** Goto a console and follow the recommended steps from https://cclpbx.com/app/www/download.php for a standard installation.  Some installations require special considerations.  Visit https://github.com/cclpbx/cclpbx-install.sh Readme section for more details.
+**1.** Goto a console and follow the recommended steps from https://fusionpbx.com/app/www/download.php for a standard installation.  Some installations require special considerations.  Visit https://github.com/fusionpbx/fusionpbx-install.sh Readme section for more details.
 
 This install script is designed to be a fast, simple, and modular way to install cclpbx. Start with a minimal install of Debian 8 with SSH enabled. Run the following commands under root. The script installs cclpbx, FreeSWITCH release package and its dependencies, IPTables, Fail2ban, NGINX, PHP FPM and PostgreSQL.
 
@@ -68,7 +68,7 @@ Also, be sure to watch the youtube video from FreeSWITCH Cluecon Weekly https://
      
 ::
      
-  wget https://raw.githubusercontent.com/cclpbx/cclpbx-install.sh/master/install.sh -O install.sh && sh install.sh
+  wget https://raw.githubusercontent.com/fusionpbx/fusionpbx-install.sh/master/install.sh -O install.sh && sh install.sh
      
 |
 
@@ -158,7 +158,7 @@ Run App defaults
 
   Go to the menu and choose Advanced -> Upgrade select the checkbox for App Defaults then execute.
   
-.. image:: ../_static/images/cclpbx_upgrade_app_defaults.jpg
+.. image:: ../_static/images/fusionpbx_upgrade_app_defaults.jpg
         :scale: 85%  
 
 |
@@ -169,7 +169,7 @@ Start Sip Profiles
 
   Go to Status -> SIP Status and start the SIP profiles
 
-.. image:: ../_static/images/cclpbx_sip_status.jpg
+.. image:: ../_static/images/fusionpbx_sip_status.jpg
         :scale: 85%
 
 |
@@ -180,7 +180,7 @@ Start Memcached
 
     Go to Advanced -> Modules and find the module Memcached and click start.
     
-.. image:: ../_static/images/cclpbx_start_memcached.jpg
+.. image:: ../_static/images/fusionpbx_start_memcached.jpg
         :scale: 85%
         
 |

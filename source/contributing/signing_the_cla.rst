@@ -2,23 +2,23 @@
 Signing the CLA
 ***************
 
-https://github.com/cclpbx/open-source
+https://github.com/fusionpbx/open-source
 
 Open Source at cclpbx
 ==============================================
 
 This repository serves as the umbrella project to represent the
-various open source efforts of Mark J. Crane(https://cclpbx.com).
+various open source efforts of Mark J. Crane(https://fusionpbx.com).
 Come here to get an overview of the various projects, to learn how to
 contribute to them, and to sign up as a contributor.
 
 Table Of Contents
 -----------------
 
-* [Sign the CLA](https://github.com/cclpbx/opensource/blob/master/sign-cla.md) - Step 1 [Required]
-* [CLA Rationale](https://github.com/cclpbx/opensource/blob/master/cla-rationale.md) - [Optional if Curious]
-* [Contributors](https://github.com/cclpbx/opensource/blob/master/contributors) - [List of Contributors]
-* [Contributor License Agreement 2.0](https://github.com/cclpbx/opensource/blob/master/cla-2.0.md) - [The Actual CLA]
+* [Sign the CLA](https://github.com/fusionpbx/opensource/blob/master/sign-cla.md) - Step 1 [Required]
+* [CLA Rationale](https://github.com/fusionpbx/opensource/blob/master/cla-rationale.md) - [Optional if Curious]
+* [Contributors](https://github.com/fusionpbx/opensource/blob/master/contributors) - [List of Contributors]
+* [Contributor License Agreement 2.0](https://github.com/fusionpbx/opensource/blob/master/cla-2.0.md) - [The Actual CLA]
 
 
 
@@ -40,14 +40,14 @@ electronically sign a statement that indicates two things:
 The reason we do this is to ensure, to the extent possible, that we don’t “taint”
 the projects we manage with contributions that turn out to be improper. This protects
 everyone who wants to use the projects, including *you*! If you want a longer explanation,
-then you can check out the [CLA Rationale page](https://github.com/cclpbx/opensource/blob/master/cla-rationale.md).
+then you can check out the [CLA Rationale page](https://github.com/fusionpbx/opensource/blob/master/cla-rationale.md).
 
 Once you sign the Contributor License Agreement (the “CLA”), we will then be able to
 merge your contributions with a clear conscience and with only the friction that results
 from the usual technical back-and-forth of a vibrant open source project.
 
 To get started with this process, visit the
-[Sign the CLA](https://github.com/cclpbx/opensource/blob/master/sign-cla.md)
+[Sign the CLA](https://github.com/fusionpbx/opensource/blob/master/sign-cla.md)
 page.
 
 
@@ -56,8 +56,8 @@ Thanks, cclpbx!
 List of Projects
 ----------------
 
-* [cclpbx](https://github.com/cclpbx/cclpbx) The Official cclpbx Repo.
-* [cclpbx Apps](https://github.com/cclpbx/cclpbx-apps) Applications for cclpbx.
-* [cclpbx Scripts](https://github.com/cclpbx/cclpbx-install.sh) Install and Upgrade Scripts for cclpbx.
-* [cclpbx Documents](https://github.com/cclpbx/cclpbx-docs) This site.
-* [Open Source Umbrella Project](https://github.com/cclpbx/opensource) Signed contributor licenses agreements.
+* [cclpbx](https://github.com/fusionpbx/fusionpbx) The Official cclpbx Repo.
+* [cclpbx Apps](https://github.com/fusionpbx/fusionpbx-apps) Applications for cclpbx.
+* [cclpbx Scripts](https://github.com/fusionpbx/fusionpbx-install.sh) Install and Upgrade Scripts for cclpbx.
+* [cclpbx Documents](https://github.com/fusionpbx/fusionpbx-docs) This site.
+* [Open Source Umbrella Project](https://github.com/fusionpbx/opensource) Signed contributor licenses agreements.

@@ -18,17 +18,17 @@ The current method to changing the superadmin password is actually to make a new
 **New Method**
 ::
 
- cd /etc/cclpbx
+ cd /etc/fusionpbx
  mv config.conf config.conf.backup
 
 **Old Method**
 ::
 
- cd /etc/cclpbx
+ cd /etc/fusionpbx
  mv config.php config.backup.php
 
 .. note::
-       In older installations of cclpbx config.php is located in /var/www/cclpbx/resources/
+       In older installations of cclpbx config.php is located in /var/www/fusionpbx/resources/
 
 |
 2. In a web browser go to your server by the IP address or domain name.
@@ -42,7 +42,7 @@ examples:
 3.  Create a New Superadmin user and password. The new must not be an existing username.
 
 
-.. image:: ../_static/images/cclpbx_password_recovery.jpg
+.. image:: ../_static/images/fusionpbx_password_recovery.jpg
         :scale: 85%
 
 
@@ -51,15 +51,15 @@ examples:
 
 ::
  
- cat /etc/cclpbx/config.conf.backup | grep password
+ cat /etc/fusionpbx/config.conf.backup | grep password
  $db_password = 'yourDatabasePassword';
 
 
 
-.. image:: ../_static/images/cclpbx_database_configuration.jpg
+.. image:: ../_static/images/fusionpbx_database_configuration.jpg
         :scale: 85%
 
-You should now have a new config.conf file in the /etc/cclpbx/ directory. 
+You should now have a new config.conf file in the /etc/fusionpbx/ directory. 
 
 5. Login in with the new username and password.
 

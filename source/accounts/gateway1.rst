@@ -15,18 +15,18 @@ Gateways provide access into other voice networks. These can be voice providers 
 
 **In this example we will be using** `VoiceTel <http://tiny.cc/voicetel>`_ .  **Each Gateway provider has their own setings to use.**    
 
-.. image:: ../_static/images/cclpbx_voicetel.jpg
+.. image:: ../_static/images/fusionpbx_voicetel.jpg
         :scale: 85% 
 
 `Click to visit <http://tiny.cc/voicetel>`_  
 
 Select **Accounts** from the drop-down list and click on **Gateways**. 
 
-.. image:: ../_static/images/cclpbx_gateway.jpg
+.. image:: ../_static/images/fusionpbx_gateway.jpg
         :scale: 85%
 
 
-.. image:: ../_static/images/cclpbx_gateway1.jpg
+.. image:: ../_static/images/fusionpbx_gateway1.jpg
         :scale: 85%
 
 
@@ -50,5 +50,5 @@ button on the right. Enter the gateway information below and Click on **Save** o
 
 |
 
-.. image:: ../_static/images/cclpbx_gateway2.jpg
+.. image:: ../_static/images/fusionpbx_gateway2.jpg
         :scale: 85%

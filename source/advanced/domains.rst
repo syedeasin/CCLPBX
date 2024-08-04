@@ -25,7 +25,7 @@ In this example we will create a domain.
 
 Navigate to Advanced then click Domains.
 
-.. image:: ../_static/images/cclpbx_domain.jpg
+.. image:: ../_static/images/fusionpbx_domain.jpg
         :scale: 85%
   
 Then click the
@@ -35,18 +35,18 @@ Then click the
  
 on the right.
 
-.. image:: ../_static/images/cclpbx_domain1.jpg
+.. image:: ../_static/images/fusionpbx_domain1.jpg
         :scale: 75%
 
 
 This will bring you to enter domain info. (Be sure to create an "A record" from your domain hosting account)
 
-.. image:: ../_static/images/cclpbx_domain2.jpg
+.. image:: ../_static/images/fusionpbx_domain2.jpg
         :scale: 75%
 
 Click **save** once entry is complete.
 
-.. image:: ../_static/images/cclpbx_domain1.jpg
+.. image:: ../_static/images/fusionpbx_domain1.jpg
         :scale: 75%
 
 
@@ -57,14 +57,14 @@ Domain Selection
 
 Changing to a different domain click the stack of three dashes on the top right
 
-.. image:: ../_static/images/cclpbx_domain5.jpg
+.. image:: ../_static/images/fusionpbx_domain5.jpg
         :scale: 75%
 
 A menu will pop open on the right of the screen.  Click on the domain that you want to manage.  You will always see the domain you are in by looking at the top right beside the three stacked dashes.
 
 
 
-.. image:: ../_static/images/cclpbx_domain6.jpg
+.. image:: ../_static/images/fusionpbx_domain6.jpg
         :scale: 75%
 
 `Domains Default Settings`_
@@ -76,22 +76,22 @@ Override a Default Setting for one domain
 
 Navigate to Advanced then click Domains.
 
-.. image:: ../_static/images/cclpbx_domain.jpg
+.. image:: ../_static/images/fusionpbx_domain.jpg
         :scale: 85%
 
 Click on the domain:
 
-.. image:: ../_static/images/cclpbx_domain1.jpg
+.. image:: ../_static/images/fusionpbx_domain1.jpg
         :scale: 85%
 
 Press "+ ADD" in the lower right corner:
 
-.. image:: ../_static/images/cclpbx_domain2.jpg
+.. image:: ../_static/images/fusionpbx_domain2.jpg
         :scale: 85%
 
 Enter the setting that should be overridden for this domain, then press Save.
 
-.. image:: ../_static/images/cclpbx_domain_setting.jpg
+.. image:: ../_static/images/fusionpbx_domain_setting.jpg
         :scale: 85%
 
 .. _Domains Default Settings: /en/latest/advanced/default_settings.html#id7

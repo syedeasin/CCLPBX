@@ -16,7 +16,7 @@ You can see the status of other users also depending on what permissions are set
 
 
 
-.. image:: ../_static/images/applications/cclpbx_operator_panel.jpg
+.. image:: ../_static/images/applications/fusionpbx_operator_panel.jpg
         :scale: 85%
         
 

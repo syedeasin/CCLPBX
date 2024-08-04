@@ -14,7 +14,7 @@ Version 5.1 to 5.2
 These instructions for upgrade are also relevant to versions of cclpbx 5.1.0 and higher. 
 
 **Release Note**
-- When this upgrade.php is run from the root, it will write the /etc/cclpbx/config.conf file by reading information from the database and config.php and config.lua.
+- When this upgrade.php is run from the root, it will write the /etc/fusionpbx/config.conf file by reading information from the database and config.php and config.lua.
 
 
 
@@ -22,12 +22,12 @@ These instructions for upgrade are also relevant to versions of cclpbx 5.1.0 and
 
 ::
 
- cd /var/www/cclpbx
+ cd /var/www/fusionpbx
  git stash
  git pull
  git checkout 5.2
  git branch
- php /var/www/cclpbx/core/upgrade/upgrade.php
+ php /var/www/fusionpbx/core/upgrade/upgrade.php
 
 
 
@@ -48,7 +48,7 @@ Note: If the fax_queue is not installed it will show an error. This is only a pr
 
 ::
 
- cp /var/www/cclpbx/app/fax_queue/resources/service/debian.service /etc/systemd/system/fax_queue.service
+ cp /var/www/fusionpbx/app/fax_queue/resources/service/debian.service /etc/systemd/system/fax_queue.service
  systemctl enable fax_queue
  systemctl start fax_queue
  systemctl daemon-reload
@@ -86,7 +86,7 @@ Comment out the url parameter.
 
 ::
 
- cp /var/www/cclpbx/app/xml_cdr/resources/service/debian.service /etc/systemd/system/xml_cdr.service
+ cp /var/www/fusionpbx/app/xml_cdr/resources/service/debian.service /etc/systemd/system/xml_cdr.service
  systemctl enable xml_cdr
  systemctl start xml_cdr
  systemctl daemon-reload
@@ -96,7 +96,7 @@ Comment out the url parameter.
 
 ::
 
- cp /var/www/cclpbx/app/xml_cdr/resources/service/debian.service /usr/lib/systemd/system/xml_cdr.service
+ cp /var/www/fusionpbx/app/xml_cdr/resources/service/debian.service /usr/lib/systemd/system/xml_cdr.service
  systemctl daemon-reload
  systemctl enable xml_cdr
  systemctl start xml_cdr
@@ -126,7 +126,7 @@ These instructions for upgrade are also relevant to versions of cclpbx 5.0.3 to 
 
 **Release Note**
 
-- When this upgrade.php is run from the root, it will write the /etc/cclpbx/config.conf file by reading information from the database and config.php and config.lua.
+- When this upgrade.php is run from the root, it will write the /etc/fusionpbx/config.conf file by reading information from the database and config.php and config.lua.
 
 
 
@@ -134,12 +134,12 @@ These instructions for upgrade are also relevant to versions of cclpbx 5.0.3 to 
 
 ::
 
- cd /var/www/cclpbx
+ cd /var/www/fusionpbx
  git stash
  git pull
  git checkout 5.1
  git branch
- php /var/www/cclpbx/core/upgrade/upgrade.php
+ php /var/www/fusionpbx/core/upgrade/upgrade.php
 
 Make sure to also update group permission from Advanced -> Group Manager -> RESTORE DEFAULT button
 
@@ -206,8 +206,8 @@ Then run this command to get the new default global dialplans
 
 ::
 
- cd /var/www/cclpbx
- php /var/www/cclpbx/core/upgrade/upgrade.php
+ cd /var/www/fusionpbx
+ php /var/www/fusionpbx/core/upgrade/upgrade.php
 
 
 
@@ -233,7 +233,7 @@ Then run this command to get the new default global dialplans
 
 **Debian or Ubuntu**
 
- cp /var/www/cclpbx/app/event_guard/resources/service/debian.service /etc/systemd/system/event_guard.service
+ cp /var/www/fusionpbx/app/event_guard/resources/service/debian.service /etc/systemd/system/event_guard.service
  systemctl enable event_guard
  systemctl start event_guard
  systemctl daemon-reload
@@ -241,7 +241,7 @@ Then run this command to get the new default global dialplans
 
 **CentOS**
 
- cp /var/www/cclpbx/app/event_guard/resources/service/debian.service /usr/lib/systemd/system/event_guard.service
+ cp /var/www/fusionpbx/app/event_guard/resources/service/debian.service /usr/lib/systemd/system/event_guard.service
  systemctl daemon-reload
  systemctl enable event_guard
  systemctl start event_guard
@@ -256,8 +256,8 @@ The config.conf and config.php files are deprecated. These files were combined i
 
 ::
 
- rm -f /etc/cclpbx/config.php
- rm -f /etc/cclpbx/config.lua
+ rm -f /etc/fusionpbx/config.php
+ rm -f /etc/fusionpbx/config.lua
 
 
 
@@ -265,16 +265,16 @@ The config.conf and config.php files are deprecated. These files were combined i
 
 ::
 
-The ***/etc/cclpbx/config.conf*** file should be owned by the root user like other files in the /etc directory.
+The ***/etc/fusionpbx/config.conf*** file should be owned by the root user like other files in the /etc directory.
 
 **Debian / Ubuntu / CentOS**
 
- chown -R root:root /etc/cclpbx
+ chown -R root:root /etc/fusionpbx
 
 
 **FreeBSD**
 
- chown -R root:root /usr/local/etc/cclpbx
+ chown -R root:root /usr/local/etc/fusionpbx
 
 
 **Destination Number**
@@ -294,7 +294,7 @@ For many years the inbound phone number (DID/DDI) would show up in the dialplan 
 
 **Update Fail2ban, if Used**
 
- cd /usr/src/cclpbx-install.sh/debian/resources
+ cd /usr/src/fusionpbx-install.sh/debian/resources
  git stash
  git pull
  ./fail2ban.sh
@@ -308,7 +308,7 @@ Use this command to look at the bottom of the config.conf file.
 
 ::
 
- cat /etc/cclpbx/config.conf | grep error
+ cat /etc/fusionpbx/config.conf | grep error
 
 Old version
 
@@ -326,21 +326,21 @@ New version
 
 If its different then use nano, vi, vim or some other editor to update the error reporting.
 
- nano /etc/cclpbx/config.conf
+ nano /etc/fusionpbx/config.conf
 
 
 Confirm that the values have been updated using this command.
 
 ::
 
- cat /etc/cclpbx/config.conf | grep error
+ cat /etc/fusionpbx/config.conf | grep error
 
 
 **Clear the cache**
 
 ::
 
- rm -f /var/cache/cclpbx/*
+ rm -f /var/cache/fusionpbx/*
 
 
 
@@ -351,16 +351,16 @@ Confirm that the values have been updated using this command.
 
 ::
 
- mv /var/www/cclpbx /var/www/cclpbx-4.4
- cd /var/www && git clone https://github.com/cclpbx/cclpbx.git
- chown -R www-data:www-data /var/www/cclpbx
+ mv /var/www/fusionpbx /var/www/fusionpbx-4.4
+ cd /var/www && git clone https://github.com/fusionpbx/fusionpbx.git
+ chown -R www-data:www-data /var/www/fusionpbx
 
 2. Try Advanced -> Upgrade Schema if that fails use the the command line.
 
 ::
 
- cd /var/www/cclpbx
- php /var/www/cclpbx/core/upgrade/upgrade.php
+ cd /var/www/fusionpbx
+ php /var/www/fusionpbx/core/upgrade/upgrade.php
 
 3. Refresh the browser if there are issues then logout and then back in.
 
@@ -393,7 +393,7 @@ If you have made any changes to these make notes on the changes before you delet
 
 - Update these Dialplans by first selecting and deleting their entries from within the Dialplan Manager for all domains. Then, run Advanced -> Upgrade -> App Defaults to retrieve the new versions of the diaplans.
 
-5. If you have customized any provisioning templates makes sure to copy them from /var/www/cclpbx-4.4/resources/templates/provision and copy them into the right vendor directory in /var/www/cclpbx/resources/templates/provision. I you haven't customized the provisioning templates you can skip this step.
+5. If you have customized any provisioning templates makes sure to copy them from /var/www/fusionpbx-4.4/resources/templates/provision and copy them into the right vendor directory in /var/www/fusionpbx/resources/templates/provision. I you haven't customized the provisioning templates you can skip this step.
 
 6. Update the language phrases. If you have added custom phrases be careful here not the case for most people.
 
@@ -401,7 +401,7 @@ If you have made any changes to these make notes on the changes before you delet
 
  rm -R -f /etc/freeswitch/lang
  rm -R -f /etc/freeswitch/languages
- cp -R /var/www/cclpbx/resources/templates/conf/languages /etc/freeswitch
+ cp -R /var/www/fusionpbx/resources/templates/conf/languages /etc/freeswitch
  chown -R www-data:www-data /etc/freeswitch
  fs_cli -x "reloadxml"
 
@@ -439,7 +439,7 @@ Go to Advanced -> Default Settings after running App Defaults to check for any d
 
 ::
 
- cp /var/www/cclpbx/app/fax_queue/resources/service/debian.service /etc/systemd/system/fax_queue.service
+ cp /var/www/fusionpbx/app/fax_queue/resources/service/debian.service /etc/systemd/system/fax_queue.service
  systemctl enable fax_queue
  systemctl start fax_queue
  systemctl daemon-reload
@@ -449,7 +449,7 @@ Go to Advanced -> Default Settings after running App Defaults to check for any d
 ::
 
  crontab -e
- * * * * * cd /var/www/cclpbx && php /var/www/cclpbx/app/fax_queue/resources/job/fax_queue.php
+ * * * * * cd /var/www/fusionpbx && php /var/www/fusionpbx/app/fax_queue/resources/job/fax_queue.php
 
 
 11. Email Queue install
@@ -460,7 +460,7 @@ Go to Advanced -> Default Settings after running App Defaults to check for any d
 
 ::
 
- cp /var/www/cclpbx/app/email_queue/resources/service/debian.service /etc/systemd/system/email_queue.service
+ cp /var/www/fusionpbx/app/email_queue/resources/service/debian.service /etc/systemd/system/email_queue.service
  systemctl enable email_queue
  systemctl start email_queue
  systemctl daemon-reload
@@ -470,7 +470,7 @@ Go to Advanced -> Default Settings after running App Defaults to check for any d
 ::
 
  crontab -e
- * * * * * cd /var/www/cclpbx && /usr/bin/php /var/www/cclpbx/app/email_queue/resources/service/email_queue.php
+ * * * * * cd /var/www/fusionpbx && /usr/bin/php /var/www/fusionpbx/app/email_queue/resources/service/email_queue.php
 
 
 Version 4.2 to 4.4
@@ -480,27 +480,27 @@ Version 4.2 to 4.4
 
 ::
 
- mv /var/www/cclpbx /var/www/cclpbx-4.2
- cd /var/www && git clone -b 4.4 https://github.com/cclpbx/cclpbx.git
- chown -R www-data:www-data /var/www/cclpbx
+ mv /var/www/fusionpbx /var/www/fusionpbx-4.2
+ cd /var/www && git clone -b 4.4 https://github.com/fusionpbx/fusionpbx.git
+ chown -R www-data:www-data /var/www/fusionpbx
 
 .. note::
-       Depending on when you installed the path /etc/cclpbx might need created.  A good way to tell is once you move the cclpbx folder in step one and the cclpbx is on a page with flags.
+       Depending on when you installed the path /etc/fusionpbx might need created.  A good way to tell is once you move the cclpbx folder in step one and the cclpbx is on a page with flags.
    
 ::
 
  **Only** do this step if the folder **doesn't** already exist.
 
- mkdir -p /etc/cclpbx
+ mkdir -p /etc/fusionpbx
 
- mv /var/www/cclpbx-4.2/resources/config.php /etc/cclpbx
- chown -R www-data:www-data /etc/cclpbx/
+ mv /var/www/fusionpbx-4.2/resources/config.php /etc/fusionpbx
+ chown -R www-data:www-data /etc/fusionpbx/
  
 - Then go to Advanced -> Upgrade and update the Source Code, Schema, Menu Defaults and Permission Defaults.
 
 .. note::
 
- config.lua needs to be read and write by the webserver in order for advanced > default settings to update config.lua with new path information. Make sure config.lua and config.php are in /etc/fuionpbx/ . Don't miss this step chown -R www-data:www-data /etc/cclpbx/ 
+ config.lua needs to be read and write by the webserver in order for advanced > default settings to update config.lua with new path information. Make sure config.lua and config.php are in /etc/fuionpbx/ . Don't miss this step chown -R www-data:www-data /etc/fusionpbx/ 
 
 2. Update the following Dialplans.
 
@@ -520,7 +520,7 @@ Version 4.2 to 4.4
 ::
 
  cd /usr/src
- wget https://raw.githubusercontent.com/cclpbx/cclpbx-scripts/master/upgrade/record_path.php
+ wget https://raw.githubusercontent.com/fusionpbx/fusionpbx-scripts/master/upgrade/record_path.php
  php record_path.php
  
 5. Resave all Call Center Queues to update each call center queue dialplan. Then restart mod call center or FreeSWITCH.
@@ -546,10 +546,10 @@ From the web interface go to the Menu -> Advanced > Upgrade page. Check the sour
 
 ::
 
- cd /var/www/cclpbx
+ cd /var/www/fusionpbx
  git stash
  git pull
- chown -R www-data:www-data /var/www/cclpbx
+ chown -R www-data:www-data /var/www/fusionpbx
 
 2. If the page goes blank type in the url http://domain.com/logout.php  This should bring you back to the login screen.  
 
@@ -564,7 +564,7 @@ https://domain.com/core/upgrade/index.php
 5. Check the box for Menu Defaults and run execute. This will update the menu to the default menu. The menu should now look like this.
 
 
-.. image:: ../_static/images/cclpbx_new_menu.jpg
+.. image:: ../_static/images/fusionpbx_new_menu.jpg
         :scale: 85%
 
 
@@ -695,11 +695,11 @@ Beyond the standard upgrade procedure just described, the following will also ne
 | * FAX ( may require adjusting the paths and web server user account to match your server 'www-data' is used in this example)
 | * Delete all previous FAX dialplans
 | * Resave each fax server in the GUI.
-| * cd /var/www/cclpbx/app/fax
-| * wget https://github.com/cclpbx/cclpbx-scripts/tree/master/upgrade/fax_import.php
+| * cd /var/www/fusionpbx/app/fax
+| * wget https://github.com/fusionpbx/fusionpbx-scripts/tree/master/upgrade/fax_import.php
 | * chown -R www-data:www-data fax_import.php
 | * Login into the GUI and use this path in your browser http://<domain-or-ip>/app/fax/fax_import.php
-| * rm /var/www/cclpbx/app/fax/fax_import.php
+| * rm /var/www/fusionpbx/app/fax/fax_import.php
 | * Groups and Permissions
 | If you go to Advanced Group Manager -> And you see what looks like duplicates of user, admin and superadmin groups then you need do the following instructions.
 
@@ -800,7 +800,7 @@ Version 3.5 to 3.6
  ALTER TABLE v_xml_cdr ADD json text;
 
 
-| See https://github.com/cclpbx/cclpbx/issues/655 for more details.
+| See https://github.com/fusionpbx/fusionpbx/issues/655 for more details.
 |
 
 | **Potential issue with call recording after upgrading/switch to latest 3.6 stable.**
@@ -817,8 +817,8 @@ Version 3.4 to 3.5
 
 ::
 
- cd /var/www/cclpbx
- wget http://cclpbx.googlecode.com/svn/branches/dev/scripts/upgrade/gateway_uuid.php
+ cd /var/www/fusionpbx
+ wget http://fusionpbx.googlecode.com/svn/branches/dev/scripts/upgrade/gateway_uuid.php
  http://x.x.x.x/gateway_uuid.php
  rm gateway_uuid.php
 
@@ -854,8 +854,8 @@ Version 3.3 to 3.4
 
 ::
 
- cd /var/www/cclpbx
- wget https://github.com/cclpbx/cclpbx-scripts/tree/master/upgrade/hunt_group_export.php
+ cd /var/www/fusionpbx
+ wget https://github.com/fusionpbx/fusionpbx-scripts/tree/master/upgrade/hunt_group_export.php
  http://x.x.x.x/hunt_group_export.php
  rm -r hunt_group_export.php
 
@@ -865,8 +865,8 @@ Version 3.3 to 3.4
 
 ::
 
- cd /var/www/cclpbx
- wget https://github.com/cclpbx/cclpbx-scripts/tree/master/upgrade/ring_group_extensions.php
+ cd /var/www/fusionpbx
+ wget https://github.com/fusionpbx/fusionpbx-scripts/tree/master/upgrade/ring_group_extensions.php
  http://x.x.x.x/ring_group_extensions.php
  rm ring_group_extensions.php
 
@@ -887,7 +887,7 @@ Version 3.1.4 to 3.2
 
 ::
 
- cd /var/www/cclpbx
+ cd /var/www/fusionpbx
  git pull
  Advanced -> Upgrade Schema
 
@@ -916,7 +916,7 @@ Migrating email to the new cclpbx native voicemail.
 
 ::
 
- wget https://github.com/cclpbx/cclpbx-scripts/tree/master/upgrade/voicemail_export.php
+ wget https://github.com/fusionpbx/fusionpbx-scripts/tree/master/upgrade/voicemail_export.php
 
 
 | Run from the browser it will take the voicemail data from the FreeSWITCH database and copy the information into the cclpbx database.
@@ -941,7 +941,7 @@ Version 2 to 3.0
 ^^^^^^^^^^^^^^^^
 
 |
-| LESS than or EQUAL to revision 1877, use the migration tool. https://github.com/cclpbx/cclpbx-scripts/tree/master/upgrade
+| LESS than or EQUAL to revision 1877, use the migration tool. https://github.com/fusionpbx/fusionpbx-scripts/tree/master/upgrade
 | If greater than revision 1877, use latest. 
 
 ::

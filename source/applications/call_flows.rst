@@ -40,7 +40,7 @@ In the Call Flow example below we have the name as Call Flow.  Make the Extensio
         :scale: 85%
 
 
-.. _training.cclpbx.com: https://cclpbx.com/app/www/training_detail.php
+.. _training.cclpbx.com: https://fusionpbx.com/app/www/training_detail.php
 
 |
 |

@@ -20,7 +20,7 @@ Install Instructions
 
 ::
 
- cp /var/www/cclpbx/app/fax_queue/resources/service/debian.service /etc/systemd/system/fax_queue.service
+ cp /var/www/fusionpbx/app/fax_queue/resources/service/debian.service /etc/systemd/system/fax_queue.service
  systemctl enable fax_queue
  systemctl start fax_queue
  systemctl daemon-reload
@@ -30,7 +30,7 @@ Install Instructions
 ::
 
  crontab -e
- * * * * * cd /var/www/cclpbx && php /var/www/cclpbx/app/fax_queue/resources/job/fax_queue.php
+ * * * * * cd /var/www/fusionpbx && php /var/www/fusionpbx/app/fax_queue/resources/job/fax_queue.php
 
 
 Default Settings

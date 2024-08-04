@@ -20,5 +20,5 @@ Uncheck the following to disable SIP ALG:
 Click the Apply button at the bottom of the page.  A reboot should not be necessary, but if you’re still experiencing issues then it is a good idea to try rebooting the router and testing again.
 
 
-.. image:: ../../_static/images/firewall/cclpbx_cisco_linksys.jpg
+.. image:: ../../_static/images/firewall/fusionpbx_cisco_linksys.jpg
         :scale: 85%

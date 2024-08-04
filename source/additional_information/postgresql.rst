@@ -14,7 +14,7 @@ database to backup is cclpbx. Make sure you have the database
 password ready.
 
 | ``su postgres``
-| ``pg_dump -U cclpbx cclpbx -b -v -f /tmp/cclpbx.sql``
+| ``pg_dump -U cclpbx cclpbx -b -v -f /tmp/fusionpbx.sql``
 
 Restore
 -------

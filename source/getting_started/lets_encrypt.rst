@@ -30,7 +30,7 @@ To create a hostname or multiple hostname SSL certificate go to:
 
 ::
 
- cd /usr/src/cclpbx-install.sh/debian/resources/
+ cd /usr/src/fusionpbx-install.sh/debian/resources/
 
 Then execute the script.
 
@@ -91,7 +91,7 @@ To create a wildcard SSL certificate go to:
 
 ::
 
- cd /usr/src/cclpbx-install.sh/debian/resources/
+ cd /usr/src/fusionpbx-install.sh/debian/resources/
 
 
 Then execute the script.
@@ -193,7 +193,7 @@ Before setting up multiple domains, make sure you have SSL working on your main 
 
 **Create shared nginx host file for all domains**
 
-``vim /etc/nginx/includes/cclpbx-default-config``
+``vim /etc/nginx/includes/fusionpbx-default-config``
  
 Paste the code below into the file
 
@@ -255,7 +255,7 @@ Paste the code below into the file
  client_body_buffer_size 128k;
 
  location / {
-   root /var/www/cclpbx;
+   root /var/www/fusionpbx;
    index index.php;
  }
 
@@ -264,7 +264,7 @@ Paste the code below into the file
    #fastcgi_pass 127.0.0.1:9000;
    fastcgi_index index.php;
    include fastcgi_params;
-   fastcgi_param   SCRIPT_FILENAME /var/www/cclpbx$fastcgi_script_name;
+   fastcgi_param   SCRIPT_FILENAME /var/www/fusionpbx$fastcgi_script_name;
  }
 
  # Disable viewing .htaccess & .htpassword & .db
@@ -281,17 +281,17 @@ Paste the code below into the file
 
 **Create a file to contain config for additional domains**
 
-``touch /etc/nginx/includes/cclpbx-domains``
+``touch /etc/nginx/includes/fusionpbx-domains``
 
 
 **make default file read configs for additional domains**
 
-``vim /etc/nginx/sites-available/cclpbx``
+``vim /etc/nginx/sites-available/fusionpbx``
 
 
 Add the line below at the very end of the file after the trailing "}"
 
-``include /etc/nginx/includes/cclpbx-domains;``
+``include /etc/nginx/includes/fusionpbx-domains;``
 
 
 By now you are all set to start using SSL on multiple domains for your cclpbx installation.
@@ -344,7 +344,7 @@ Obtain the cert from Let's Encrypt (again, replce example.com with your domain)
 
 ::
 
- cd /etc/cclpbx
+ cd /etc/fusionpbx
  vim renew-letsencrypt.sh
  
  
@@ -355,7 +355,7 @@ Add the line below right below where it says "cd /opt/letsencrypt/" (again repla
 
 Finally add your new domain to be loaded
 
-``vim /etc/nginx/includes/cclpbx-domains``
+``vim /etc/nginx/includes/fusionpbx-domains``
 
 
 Paste the below at the very end of the file (again replace example.com with your domain)
@@ -369,7 +369,7 @@ Paste the below at the very end of the file (again replace example.com with your
          ssl_certificate /etc/letsencrypt/live/example.com/fullchain.pem;
          ssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;
 
-         include /etc/nginx/includes/cclpbx-default-config;
+         include /etc/nginx/includes/fusionpbx-default-config;
  }
  
  

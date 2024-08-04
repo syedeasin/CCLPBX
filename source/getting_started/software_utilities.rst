@@ -42,8 +42,8 @@ From your cclpbx install SSH window or console window
 ::
 
  cd /usr/src
- git clone https://github.com/cclpbx/cclpbx-install.sh.git
- cd /usr/src/cclpbx-install.sh/debian/resources/
+ git clone https://github.com/fusionpbx/fusionpbx-install.sh.git
+ cd /usr/src/fusionpbx-install.sh/debian/resources/
  ./sngrep.sh
 
 **Command**

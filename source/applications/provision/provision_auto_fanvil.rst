@@ -34,7 +34,7 @@ Static Provisioning Server
 * Click Apply
 
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_fanvil.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_fanvil.jpg
         :scale: 85%
 
 
@@ -44,7 +44,7 @@ Static Provisioning Server
 * Scroll to the bottom and click **Reboot**
 
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_fanvil1.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_fanvil1.jpg
         :scale: 85%
 
 
@@ -58,6 +58,6 @@ If you are going to use a self signed certificate you will need to adjust additi
 * CA Certificates: Disabled
 * Click Apply
 
-.. image:: ../../_static/images/provision/cclpbx_provision_auto_fanvil2.jpg
+.. image:: ../../_static/images/provision/fusionpbx_provision_auto_fanvil2.jpg
         :scale: 85%
 

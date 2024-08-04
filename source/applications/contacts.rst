@@ -6,7 +6,7 @@ Contacts
 Contacts is a list of individuals and organizations.
 
 
-.. image:: ../_static/images/cclpbx_contacts.jpg
+.. image:: ../_static/images/fusionpbx_contacts.jpg
         :scale: 85%
 
 
@@ -17,7 +17,7 @@ Contacts is a list of individuals and organizations.
 
 
 
-.. image:: ../_static/images/cclpbx_contacts1.jpg
+.. image:: ../_static/images/fusionpbx_contacts1.jpg
         :scale: 85%
 
 
@@ -27,7 +27,7 @@ Contacts is a list of individuals and organizations.
 
 
 
-.. image:: ../_static/images/cclpbx_contacts2.jpg
+.. image:: ../_static/images/fusionpbx_contacts2.jpg
         :scale: 85%
 
 
@@ -35,7 +35,7 @@ Contacts is a list of individuals and organizations.
 *  To generate a QR code click the **QR CODE** button at the top right
 
 
-.. image:: ../_static/images/cclpbx_qr_code.jpg
+.. image:: ../_static/images/fusionpbx_qr_code.jpg
         :scale: 85%
         :align: center
 

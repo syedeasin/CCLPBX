@@ -4,7 +4,7 @@ XMPP Manager
 
 |
 
-.. image:: ../_static/images/cclpbx_xmpp.jpg
+.. image:: ../_static/images/fusionpbx_xmpp.jpg
         :scale: 85%
 
 |
@@ -13,7 +13,7 @@ XMPP Manager
 
 |
 
-.. image:: ../_static/images/cclpbx_xmpp1.jpg
+.. image:: ../_static/images/fusionpbx_xmpp1.jpg
         :scale: 85%
 
 |
@@ -43,7 +43,7 @@ XMPP Manager
 
 |
 
-.. image:: ../_static/images/cclpbx_xmpp2.jpg
+.. image:: ../_static/images/fusionpbx_xmpp2.jpg
         :scale: 85%
 
 
@@ -84,7 +84,7 @@ XMPP Manager
 
 |
 
-.. image:: ../_static/images/cclpbx_xmpp5.jpg
+.. image:: ../_static/images/fusionpbx_xmpp5.jpg
         :scale: 85%
 
 |
@@ -124,10 +124,10 @@ Enable XMPP
 ::
 
  cd /tmp
- git clone https://github.com/cclpbx/cclpbx-apps.git 
+ git clone https://github.com/fusionpbx/fusionpbx-apps.git 
  cd cclpbx-apps/
- mv xmpp/ /var/www/cclpbx/app/
- cd /var/www/cclpbx/app
+ mv xmpp/ /var/www/fusionpbx/app/
+ cd /var/www/fusionpbx/app
  chown www-data:www-data -R xmpp/
 
 

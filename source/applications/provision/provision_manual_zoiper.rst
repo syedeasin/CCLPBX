@@ -12,28 +12,28 @@ In the ever changing world of voip businesses are moving away from hardware phon
 2. Install the software.
 3. If the software isn't open click the Zoiper icon to open from the desktop or start menu.
 
-.. image:: ../../_static/images/cclpbx_zoiper.jpg
+.. image:: ../../_static/images/fusionpbx_zoiper.jpg
         :scale: 85%
 
 |
 
 4. Click on **Settings**
 
-.. image:: ../../_static/images/cclpbx_zoiper1.jpg
+.. image:: ../../_static/images/fusionpbx_zoiper1.jpg
         :scale: 85%
 
 |
 
 5. Click on **Preferences**
 
-.. image:: ../../_static/images/cclpbx_zoiper2.jpg
+.. image:: ../../_static/images/fusionpbx_zoiper2.jpg
         :scale: 85%
 
 |
 
 6. Click on **Create account**
 
-.. image:: ../../_static/images/cclpbx_zoiper3.jpg
+.. image:: ../../_static/images/fusionpbx_zoiper3.jpg
         :scale: 85%
 
 |
@@ -46,14 +46,14 @@ In the ever changing world of voip businesses are moving away from hardware phon
 
 |
 
-.. image:: ../../_static/images/cclpbx_zoiper4.jpg
+.. image:: ../../_static/images/fusionpbx_zoiper4.jpg
         :scale: 85%
 
 |
 
 8. Click ok.  You should have **Registered** at the top right
 
-.. image:: ../../_static/images/cclpbx_zoiper5.jpg
+.. image:: ../../_static/images/fusionpbx_zoiper5.jpg
         :scale: 85%
 
 |

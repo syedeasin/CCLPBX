@@ -5,7 +5,7 @@ Command
 Provides a conventient way to execute system, PHP, switch and SQL commands. 
 
 
-.. image:: ../_static/images/cclpbx_command.jpg
+.. image:: ../_static/images/fusionpbx_command.jpg
         :scale: 85%
 
 

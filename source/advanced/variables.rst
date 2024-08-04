@@ -6,7 +6,7 @@ Variables
 Define preprocessor switch variables here.
 
 
-.. image:: ../_static/images/advanced/cclpbx_advanced_variables.jpg
+.. image:: ../_static/images/advanced/fusionpbx_advanced_variables.jpg
         :scale: 85%
 
 

@@ -334,10 +334,10 @@ This is not a comprehensive set of features. A complete list would be many times
 .. _Voicemail: ../applications/voicemail.html
 .. _Voicemail Transcription: ../applications/voicemail.html#voicemail-transcription
 .. _and lots more...: ../features/features.html
-.. _Scalable and Redundant: https://cclpbx.com/app/www/training_detail.php
+.. _Scalable and Redundant: https://fusionpbx.com/app/www/training_detail.php
 .. _User and Group Management: ../advanced/group_manager.html
 .. _Parking: /en/latest/features/parking.html
-.. _Re-branding and Customize: http://cclpbx.com/support.php
+.. _Re-branding and Customize: http://fusionpbx.com/support.php
 .. _WebRTC: ../applications_optional/webrtc.html
 
 

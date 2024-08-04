@@ -8,7 +8,7 @@ Setting up a **Yealink** SIP phone through the phone's local http management por
 
 * Once the phone powers up, press the OK button once and the phone will display its IP address on the screen.  Navigate to that IP on another device in a web browser, and use admin for the username and admin for the password.
 
-.. image:: ../../_static/images/cclpbx_t41p_login.png
+.. image:: ../../_static/images/fusionpbx_t41p_login.png
         :scale: 85%
 
 * **Enter the following information for each Account that is required:**
@@ -23,7 +23,7 @@ Setting up a **Yealink** SIP phone through the phone's local http management por
 * Under SIP Server 1, set the "Server Host" to your cclpbx domain for that extension.
 * **Click confirm.**
 
-.. image:: ../../_static/images/cclpbx_t41p_config.png
+.. image:: ../../_static/images/fusionpbx_t41p_config.png
         :scale: 85%
 
 * Click "Advanced" on the left menu.

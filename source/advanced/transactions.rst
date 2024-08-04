@@ -7,7 +7,7 @@ A list of databse changes (transactions) made by all users while logged into ccl
 
 
 
-.. image:: ../_static/images/advanced/cclpbx_advanced_database_transactions.jpg
+.. image:: ../_static/images/advanced/fusionpbx_advanced_database_transactions.jpg
         :scale: 85%
 
 

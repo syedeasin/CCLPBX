@@ -6,7 +6,7 @@ Broadcast calls (a light dialer) to a defined list of phone numbers.
 
 
 
-.. image:: ../_static/images/cclpbx_call_broadcast.jpg
+.. image:: ../_static/images/fusionpbx_call_broadcast.jpg
         :scale: 85%
 
 *  To create a call broadcast click the **plus** on the right
@@ -50,7 +50,7 @@ row in the following format: 123-123-1234|Last Name, First Name
 
 
 
-.. image:: ../_static/images/cclpbx_call_broadcast1.jpg
+.. image:: ../_static/images/fusionpbx_call_broadcast1.jpg
         :scale: 85%
 
 

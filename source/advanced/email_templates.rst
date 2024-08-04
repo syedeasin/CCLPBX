@@ -8,7 +8,7 @@ Email Templates provide an easy way to make custom notification emails for voice
 *  To edit one of the templates click the pencil icon.
 
 
-.. image:: ../_static/images/advanced/cclpbx_email_templates.jpg
+.. image:: ../_static/images/advanced/fusionpbx_email_templates.jpg
         :scale: 85%
 
 
@@ -19,6 +19,6 @@ Editing Email Templates
 Click the edit pencil icon beside the template you want to edit.
 
 
-.. image:: ../_static/images/advanced/cclpbx_email_template_edit.jpg
+.. image:: ../_static/images/advanced/fusionpbx_email_template_edit.jpg
         :scale: 85%
 

@@ -23,7 +23,7 @@ First, set up an Object for your Cloud PBX.
 
 Create a name, and enter the static public IP of your cclpbx.  If you have more than one, such as a failover, add that as well and create a group.
 
-.. image:: ../../_static/images/firewall/cclpbx_zyxel_usg60_object_address.png
+.. image:: ../../_static/images/firewall/fusionpbx_zyxel_usg60_object_address.png
         :scale: 85%
 
 Next, set up a Service Object for the VOIP traffic.
@@ -36,7 +36,7 @@ Create a name, and set the ports for your traffic.  In this example we will add 
 
 .. Note:: If you’ve created more than one service object, click the Service Group tab and create a group.  Add the service objects that you’ve created to the group.
 
-.. image:: ../../_static/images/firewall/cclpbx_zyxel_usg60_object_service.png
+.. image:: ../../_static/images/firewall/fusionpbx_zyxel_usg60_object_service.png
         :scale: 85%
 
 Now setup your BWM rules.
@@ -54,7 +54,7 @@ Basically will just switch the Source and Destination.
 
 * Click the Apply button.
 
-.. image:: ../../_static/images/firewall/cclpbx_zyxel_usg60_bwm_.png
+.. image:: ../../_static/images/firewall/fusionpbx_zyxel_usg60_bwm_.png
         :scale: 85%
 
 
@@ -86,6 +86,6 @@ How to Disable SIP ALG
 Click the Apply button at the bottom of the page.  A reboot should not be necessary, but if you’re still experiencing issues then it is a good idea to try rebooting the router and testing again.
 
 
-.. image:: ../../_static/images/firewall/cclpbx_zyxel_usg60.png
+.. image:: ../../_static/images/firewall/fusionpbx_zyxel_usg60.png
         :scale: 85%
 

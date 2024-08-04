@@ -18,7 +18,7 @@ Inbound Call Routing is used to route incoming calls to destinations based on on
 
 **Inbound routes can be used for advanced reasons**.  `Dialplan > Destinations <http://docs.cclpbx.com/en/latest/dialplan/destinations.html>`_ **will create and configure the Inbound Route for you.**
 
-.. image:: ../_static/images/dialplan/cclpbx_inbound_routes1.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_inbound_routes1.jpg
         :scale: 85%
 
 * **Name:** The name of the Inbound Route.
@@ -32,7 +32,7 @@ Inbound Call Routing is used to route incoming calls to destinations based on on
 Edit/Add Inbound Routes
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../_static/images/dialplan/cclpbx_inbound_routes_2.jpg
+.. image:: ../_static/images/dialplan/fusionpbx_inbound_routes_2.jpg
         :scale: 85%
 
 * **Name:** The name of the Inbound Route.

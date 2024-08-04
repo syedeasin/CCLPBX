@@ -23,7 +23,7 @@ Goto Advanced > Default Settings > Provision
  
 Set Enabled to **True** and define the path to where the TFTP files will be.
  
-.. image:: ../_static/images/cclpbx_tftp.jpg
+.. image:: ../_static/images/fusionpbx_tftp.jpg
         :scale: 85%
 
 
